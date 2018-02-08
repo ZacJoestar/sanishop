@@ -1,0 +1,34 @@
+{
+  "name": "sanishop",
+  "version": "1.0.0",
+  "description": "Refonte site web Sanishop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacJoestar/sanishop.git"
+  },
+  "keywords": [
+    "Wordpress",
+    "Gulp",
+    "Sass",
+    "Bootstrap"
+  ],
+  "author": "Clément Hmich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacJoestar/sanishop/issues"
+  },
+  "homepage": "https://github.com/ZacJoestar/sanishop#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
