@@ -16,6 +16,11 @@ gulp.task('serve', ['sass'], function() {
 gulp.task('sass', function() {
     return gulp.src(path + 'scss/**/*.scss')
         .pipe(sass())
+        .on('error', function (err) {
+            console.log(err.toString());
+
+            this.emit('end');
+        })
         .pipe(gulp.dest(path + 'css'))
         .pipe(browserSync.reload({stream: true}));
 });

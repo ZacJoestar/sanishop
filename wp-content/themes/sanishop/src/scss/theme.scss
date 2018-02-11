@@ -1,5 +1,11 @@
 @charset "utf-8";
 
-@import 'bootstrap/scss/bootstrap';
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 
 @import 'elements/buttons';
+@import 'elements/typos';
+@import 'elements/fancy';
+@import 'elements/utility';
+@import 'elements/video';
+@import 'elements/listes';
+@import 'elements/separators';

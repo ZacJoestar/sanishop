@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+@font-face{
+  font-family: 'Droid';
+  src: url('../fonts/droiditalic.woff') format('woff');
+}
+@font-face{
+  font-family: 'Tex';
+  src: url('../fonts/texregular.woff') format('woff');
+}
+@font-face{
+  font-family: 'Texbold';
+  src: url('../fonts/texbold.woff') format('woff');
+}
+
+body{
+  font-family: 'Raleway';
+}
+
+.title-card{
+  font-family: 'Tex';
+  font-size: $font-size-h3;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.title{
+  @extend .title-card;
+  font-size: $font-size-h2;
+  margin-bottom: 50px;
+}
+
+.title-second{
+  @extend .title-card;
+  font-size: $font-size-h4;
+}
+
+.sub-title{
+  font-family: 'Droid';
+  font-weight: 300;
+  font-size: $font-size-h5;
+  color: $gray-light;
+  margin-top: 0;
+}
+
+.copyright{
+  font-family: 'Droid';
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+.paragraph{
+  color: $gray-light;
+  margin: 20px 0;
+  line-height: 24px;
+}

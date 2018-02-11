@@ -1,0 +1,48 @@
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  background-color: $gray-lighter;
+}
+
+section::before,
+section::after {
+  position: absolute;
+  content: '';
+  pointer-events: none;
+}
+
+.ss-style-doublediagonal {
+  z-index: 1;
+  padding-top: 6em;
+  background-color: $gray-lighter;
+}
+
+.ss-style-doublediagonal::before,
+.ss-style-doublediagonal::after {
+  top: 0;
+  left: -25%;
+  z-index: -1;
+  width: 150%;
+  height: 75%;
+  background: inherit;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.ss-style-doublediagonal::before {
+  height: 50%;
+  background: $gray-middle;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transform-origin: 3% 0;
+  transform-origin: 3% 0;
+}

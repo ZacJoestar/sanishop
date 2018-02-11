@@ -1,4 +1,21 @@
-a.main-btn{
-  background-color: $black;
-  color: $white;
+.main-btn{
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+  transition: all ease .2s;
+  border: solid 1px #000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  &:hover{
+    background-color: #fff;
+  }
+  a{
+    padding: 15px;
+    display: block;
+    color: #fff;
+    &:hover{
+      text-decoration: none;
+      color: #000;
+    }
+  }
 }
