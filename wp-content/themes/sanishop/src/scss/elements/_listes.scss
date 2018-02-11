@@ -1,8 +1,11 @@
 .list{
   list-style: none;
   line-height: 30px;
+  padding-left: 0;
   li{
     position: relative;
+    border-bottom: dotted 1px $gray-light;
+    padding: 10px 10px 10px 30px;
     &:before{
       content: '';
       position: absolute;
@@ -10,11 +13,10 @@
       background-color: #000;
       width: 5px;
       height: 5px;
-      margin-left: -20px;
       margin-top: 12px;
     }
   }
-  span{
+  .list-link{
     position: relative;
     left: 0;
     transition: left ease-in-out .2s;

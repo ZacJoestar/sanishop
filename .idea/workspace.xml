@@ -2,160 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af07ff5-33dc-423b-9d92-5c943d3a8ad0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_utility.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_video.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_big-image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_paragraphe-card.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/index.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/css/theme.css" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/css/theme.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.bundle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/dist/js/bootstrap.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/alert.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/button.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/carousel.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/collapse.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/dropdown.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/modal.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/popover.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/scrollspy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/tab.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/tooltip.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/dist/util.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/js/src/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_bootstrap-grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_bootstrap-reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_bootstrap.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_breadcrumb.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_button-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_carousel.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_close.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_code.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_custom-forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_dropdown.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_images.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_input-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_jumbotron.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_media.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_modal.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_navbar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_popover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_print.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_progress.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_root.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_tables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_tooltip.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_transitions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_type.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_caret.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_hover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_image.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_lists.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_resize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_size.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_transition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_background.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_borders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_display.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_embed.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_position.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_spacing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss/utilities/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -179,58 +33,22 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2231">
-              <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="172">
+              <caret line="104" column="61" lean-forward="false" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_listes.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss">
+      <file leaf-file-name="_big-image.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_big-image.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Sanishop ressources/SectionSeparators/css/component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_separators.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typos.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="460">
+              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -246,11 +64,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_separators.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="276">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -266,6 +94,7 @@
       <find>sub-t</find>
       <find>margin</find>
       <find>b</find>
+      <find>.no-gutters</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/bootstrap/scss</dir>
@@ -291,12 +120,14 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_utility.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_video.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_paragraphe-card.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_big-image.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss" />
       </list>
     </option>
@@ -462,15 +293,16 @@
       <workItem from="1518123456593" duration="2575000" />
       <workItem from="1518254040093" duration="16118000" />
       <workItem from="1518300667824" duration="1383000" />
-      <workItem from="1518338371614" duration="39000" />
+      <workItem from="1518338371614" duration="4771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37412000" />
+    <option name="totallyTimeSpent" value="42144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -482,6 +314,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -490,7 +323,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -508,26 +340,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8418">
-          <caret line="366" column="14" lean-forward="false" selection-start-line="366" selection-start-column="8" selection-end-line="366" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
           <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,7 +419,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,7 +446,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,6 +504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -757,42 +580,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/Sanishop ressources/SectionSeparators/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="322">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_paragraphe-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="276">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2231">
-          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="172">
+          <caret line="104" column="61" lean-forward="false" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Sanishop ressources/SectionSeparators/css/component.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_big-image.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_separators.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="429">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding />
         </state>
       </provider>

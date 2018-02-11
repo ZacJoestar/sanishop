@@ -17,6 +17,14 @@ body{
   font-family: 'Raleway';
 }
 
+a{
+  color: #000;
+  &:hover{
+    text-decoration: none;
+    color: #000;
+  }
+}
+
 .title-card{
   font-family: 'Tex';
   font-size: $font-size-h3;

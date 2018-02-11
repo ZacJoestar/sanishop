@@ -5848,6 +5848,12 @@ button.close {
 body {
   font-family: 'Raleway'; }
 
+a {
+  color: #000; }
+  a:hover {
+    text-decoration: none;
+    color: #000; }
+
 .title-card, .title, .title-second {
   font-family: 'Tex';
   font-size: 24px;
@@ -5950,9 +5956,12 @@ body {
 
 .list {
   list-style: none;
-  line-height: 30px; }
+  line-height: 30px;
+  padding-left: 0; }
   .list li {
-    position: relative; }
+    position: relative;
+    border-bottom: dotted 1px #777777;
+    padding: 10px 10px 10px 30px; }
     .list li:before {
       content: '';
       position: absolute;
@@ -5960,13 +5969,12 @@ body {
       background-color: #000;
       width: 5px;
       height: 5px;
-      margin-left: -20px;
       margin-top: 12px; }
-  .list span {
+  .list .list-link {
     position: relative;
     left: 0;
     transition: left ease-in-out .2s; }
-    .list span:hover {
+    .list .list-link:hover {
       position: relative;
       left: 10px; }
 
@@ -6012,3 +6020,62 @@ section::after {
   transform: rotate(-3deg);
   -webkit-transform-origin: 3% 0;
   transform-origin: 3% 0; }
+
+.title-separator, .title-separator-white {
+  background-image: url("../images/separator.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto; }
+
+.title-separator-white {
+  background-image: url("../images/separator-white.png"); }
+
+.bg-paragraph-card {
+  padding-left: 0;
+  padding-right: 0; }
+  .bg-paragraph-card .bg-paragraph-card-wrapper {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); }
+
+.black-paragraph-card {
+  padding-left: 0;
+  padding-right: 0; }
+  .black-paragraph-card .bg-paragraph-card-wrapper {
+    padding: 50px;
+    background-color: #000; }
+    .black-paragraph-card .bg-paragraph-card-wrapper .title-second {
+      color: #fff; }
+    .black-paragraph-card .bg-paragraph-card-wrapper .paragraph {
+      color: #fff; }
+    .black-paragraph-card .bg-paragraph-card-wrapper .main-btn {
+      background-color: #fff; }
+      .black-paragraph-card .bg-paragraph-card-wrapper .main-btn:hover {
+        background-color: #eeeeee;
+        color: #000; }
+      .black-paragraph-card .bg-paragraph-card-wrapper .main-btn a {
+        color: #000; }
+
+.big-image {
+  color: #fff;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+  height: 70vh; }
+
+.big-image-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.big-image-text-wrapper .title {
+  color: #fff;
+  margin-bottom: 10px; }
+
+.big-image-text-wrapper .title-second {
+  color: #fff; }

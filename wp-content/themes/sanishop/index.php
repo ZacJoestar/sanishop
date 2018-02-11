@@ -77,25 +77,73 @@
                     <p class="copyright">© Better Homes and Gardens</p>
                 </div>
             </div>
-            <section class="ss-style-doublediagonal">
-                <div class="row mb-5">
-                    <div class="col-md-12">
-                        <h2 class="title">Listes</h2>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list">
-                            <li><span>lorem ipsum dolor</span></li>
-                            <li><span>lorem ipsum dolor</span></li>
-                            <li><span>lorem ipsum dolor</span></li>
-                            <li><span>lorem ipsum dolor</span></li>
-                            <li><span>lorem ipsum dolor</span></li>
-                            <li><span>lorem ipsum dolor</span></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h2 class="title">Listes</h2>
                 </div>
-            </section>
+                <div class="col-md-4">
+                    <ul class="list">
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                        <li><a href="#" class="list-link">lorem ipsum dolor</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row mb-5 no-gutters">
+                <div class="col-md-12">
+                    <h2 class="title">Elements de paragraphe</h2>
+                </div>
+                <div class="col-md-12 big-image" style="background: url('http://www.culturespas.fr/wp-content/uploads/2016/05/city_spa_free_acqua.jpg') no-repeat center center; background-size:cover">
+                    <div class="big-image-overlay">
+                        <div class="big-image-text-wrapper">
+                            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+                            <div class="title-separator-white"></div>
+                            <h3 class="title-second">Dicta ea eum in incidunt iusto maiores modi molestias</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-paragraph-card" style="background: url('https://services-homedepot-com.s3.amazonaws.com/services/bathroom-installation-fee484cd-6ec6-4be3-b127-55c7f8dec39d.jpg') no-repeat center center; background-size:cover">
+                    <div class="bg-paragraph-card-wrapper">
+                        <h4 class="sub-title">Lorem ipsum dolor</h4>
+                        <h3 class="title-second">Spas saunas</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
+                        </p>
+                        <div class="main-btn">
+                            <a href="#">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 black-paragraph-card">
+                    <div class="bg-paragraph-card-wrapper">
+                        <h4 class="sub-title">Lorem ipsum dolor</h4>
+                        <h3 class="title-second">Spas saunas</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
+                        </p>
+                        <div class="main-btn">
+                            <a href="#">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-paragraph-card" style="background: url('https://www.totousa.com/filemanager_uploads/slideshows/hs_Neo750H.jpg') no-repeat center center; background-size:cover">
+                    <div class="bg-paragraph-card-wrapper">
+                        <h4 class="sub-title">Lorem ipsum dolor</h4>
+                        <h3 class="title-second">Spas saunas</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
+                        </p>
+                        <div class="main-btn">
+                            <a href="#">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
