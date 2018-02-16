@@ -1,0 +1,49 @@
+.wrapper-visuels{
+  height: 100%;
+}
+
+.img-visuel-card{
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+  &:hover{
+    cursor: pointer;
+  }
+  &--visuel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    img{
+      max-width: 700px;
+    }
+  }
+  &:hover .overlay {
+    opacity: 0;
+    top: 100%;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.9);
+    opacity: 1;
+    transition: all ease-in-out .6s;
+    padding: 70px;
+  }
+  &--title-wrapper{
+    border: solid 1px $gray-middle;
+    width: 100%;
+    height: 100%;
+  }
+  &--title-wrapper.v-align-center{
+    justify-content: center;
+  }
+  &--title{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

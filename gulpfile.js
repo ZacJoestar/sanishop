@@ -6,7 +6,7 @@ var path = 'wp-content/themes/sanishop/src/';
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        proxy: "localhost/sanishop/"
+        proxy: "localhost:8888/sanishop"
     });
 
     gulp.watch(path + 'scss/**/*.scss', ['sass']);

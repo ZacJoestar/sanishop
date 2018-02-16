@@ -21,4 +21,17 @@ $(document).ready(function(){
 
     });
 
+    $('.img-visuel-card').on('click', function() {
+        var imgSrc = $(this).find('img').prop('src');
+       $('.popin-container, .popin-overlay').fadeIn();
+       $('.popin-container img').attr('src', imgSrc);
+       $('body').css('overflow','hidden');
+       console.log(imgSrc);
+    });
+
+    $('.btn-close-popin').on('click', function () {
+        $('.popin-container, .popin-overlay').fadeOut();
+        $('body').css('overflow','visible');
+    });
+
 });

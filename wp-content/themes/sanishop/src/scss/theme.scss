@@ -2,6 +2,11 @@
 
 @import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 
+@import 'pages/global';
+@import 'pages/home';
+
+@import 'layouts/quad-layout';
+
 @import 'elements/buttons';
 @import 'elements/typos';
 @import 'elements/fancy';
@@ -11,3 +16,5 @@
 @import 'elements/separators';
 @import 'elements/paragraphe-card';
 @import 'elements/big-image';
+@import 'elements/img-visuel-card';
+@import 'elements/popin';
