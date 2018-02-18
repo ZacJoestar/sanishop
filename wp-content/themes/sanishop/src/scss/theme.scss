@@ -2,6 +2,8 @@
 
 @import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 
+@import 'mixins/breakpoints';
+
 @import 'pages/global';
 @import 'pages/home';
 
@@ -18,3 +20,8 @@
 @import 'elements/big-image';
 @import 'elements/img-visuel-card';
 @import 'elements/popin';
+@import 'elements/footer';
+@import 'elements/gallery';
+@import 'elements/header';
+
+@import 'layouts/footer';

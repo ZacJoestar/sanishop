@@ -16,12 +16,12 @@ $(document).ready(function(){
     $('#play-video').on('click', function(ev) {
         $('.video-cover').fadeOut(500);
         $('iframe').css('opacity','1');
-        $("#video")[0].src += "&autoplay=1";
+        $("#video")[0].src += "?autoplay=1";
         ev.preventDefault();
 
     });
 
-    $('.img-visuel-card').on('click', function() {
+    $('.img-visuel-card, .item-gallery-wrapper').on('click', function() {
         var imgSrc = $(this).find('img').prop('src');
        $('.popin-container, .popin-overlay').fadeIn();
        $('.popin-container img').attr('src', imgSrc);

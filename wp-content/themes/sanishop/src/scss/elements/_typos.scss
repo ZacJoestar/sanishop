@@ -54,6 +54,23 @@ a{
   margin-top: 0;
 }
 
+.title-third{
+  @extend .title-second;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.footer-title{
+  @extend .title-second;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Texbold';
+  margin-bottom: 40px;
+}
+
+
+
 .copyright{
   font-family: 'Droid';
   font-size: 11px;
@@ -68,4 +85,10 @@ a{
 
 .wrapper-text-content{
   padding: 0 50px;
+}
+
+.footer-social-label{
+  @extend .title-second;
+  font-size: 14px;
+  color: #fff;
 }

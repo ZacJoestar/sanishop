@@ -1,0 +1,29 @@
+.gallery-container{
+  position: relative;
+    width: 70%;
+    margin: auto;
+ .item-gallery-wrapper{
+   position: relative;
+   display: inline-block;
+   width: 25%;
+   height: 300px;
+   max-height: 300px;
+   margin-left: -4px;
+   vertical-align: top;
+   overflow: hidden;
+ }
+  .item-gallery-visuel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+    display: block;
+    vertical-align: top;
+    transition: max-width linear .5s;
+    &:hover{
+      cursor: pointer;
+      max-width: 550px;
+    }
+  }
+}

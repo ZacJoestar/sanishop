@@ -49,4 +49,7 @@ $mt-5: 50px;
 .v-align-center{
   display: flex;
   align-items: center;
+  @include breakpoint(xs){
+    display: block;
+  }
 }

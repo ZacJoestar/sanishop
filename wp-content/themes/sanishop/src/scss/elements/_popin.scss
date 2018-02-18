@@ -2,6 +2,7 @@
 .popin-container{
   display: none;
   transition: display ease-in-out .7s;
+  z-index: 100;
 }
 
 .popin-overlay{
@@ -13,17 +14,20 @@
 }
 
 .popin-container {
-  position: absolute;
+  position: fixed;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
   width: 70%;
-  height: 50vh;
+  height: 68vh;
   max-width: 1000px;
   img{
     position: relative;
     top: -50px;
-    width:100%;
+    max-width:100%;
+    margin: auto;
+    display: block;
+    max-height: 68vh;
   }
 }
 

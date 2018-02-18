@@ -26,3 +26,12 @@
     }
   }
 }
+
+.list-footer{
+  list-style: none;
+  padding-left: 0;
+  &--item{
+    color: #fff;
+    margin-bottom: 10px;
+  }
+}

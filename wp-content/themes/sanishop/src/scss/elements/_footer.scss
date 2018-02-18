@@ -1,0 +1,42 @@
+footer{
+  padding: 50px;
+  background-color: #000;
+  .list{
+    padding: 0 30px;
+    li{
+      a{
+        color: #fff;
+      }
+      &:before{
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.logo-footer{
+  img{
+    display: block;
+    width: 100%;
+  }
+}
+
+.footer-icons{
+  margin-bottom: 10px;
+  .svg-inline--fa{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    transition: all ease-in-out .3s;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:hover{
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+  .footer-social-label{
+    display: inline-block;
+  }
+}
