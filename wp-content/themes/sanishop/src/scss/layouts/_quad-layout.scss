@@ -1,6 +1,6 @@
 .quad-layout {
   height: 70vh;
-  @include breakpoint(xs){
+  @include bp(xs){
     height: auto;
   }
   .row{
@@ -8,8 +8,14 @@
   }
   .col-md-4.v-align-center{
     height: 100%;
-    @include breakpoint(xs){
-      height: 400px;
+    @include bp(xs){
+      height: auto;
+    }
+  }
+  .wrapper-text-content{
+    @include bp(xs){
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
   }
 }

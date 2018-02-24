@@ -5,6 +5,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<title>Sanishop</title>
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/src/css/theme.css" class="rel">
 		<script
@@ -39,6 +40,44 @@
                     Plomberie
                     <span></span>
                 </a>
+            </div>
+        </nav>
+        <div class="btn-menu-trigger">
+            <i class="fas fa-bars" style="font-size:3em;color:#fff"></i>
+        </div>
+        <nav class="nav-mobile">
+            <div class="btn-close-menu"></div>
+            <div class="logo-mobile">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent-black.png" alt="">
+            </div>
+            <div class="main-header-wrapper">
+                <a class="nav-link active" href="#">
+                    Accueil
+                    <span></span>
+                </a>
+                <a class="nav-link" href="#">
+                    Salles de bain
+                    <span></span>
+                </a>
+                <a class="nav-link" href="#">
+                    Installation de sanitaires
+                    <span></span>
+                </a>
+                <a class="nav-link disabled" href="#">
+                    Spas Sauns Hammams JACUZZI®
+                    <span></span>
+                </a>
+                <a class="nav-link disabled" href="#">
+                    Plomberie
+                    <span></span>
+                </a>
+            </div>
+            <div class="header-icons">
+                <i class="fab fa-facebook-f" style="font-size:1em;color:rgba(119,119,119,.6)"></i>
+                <i class="fab fa-twitter" style="font-size:1em;color:rgba(119,119,119,.6)"></i>
+                <i class="fab fa-google-plus-g" style="font-size:1em;color:rgba(119,119,119,.6)"></i>
+                <i class="fas fa-phone" style="font-size:1em;color:rgba(119,119,119,.6)"></i>
+                <i class="fas fa-envelope" style="font-size:1em;color:rgba(119,119,119,.6)"></i>
             </div>
         </nav>
         <div class="container-fluid header-page">
@@ -282,56 +321,63 @@
                 </div>
             </div>
             <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="logo-footer">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sanishop_noir.jpg" alt="">
-                                <div class="footer-icons">
-                                    <i class="fab fa-facebook-f" style="font-size:1em;color:#fff"></i>
-                                    <i class="fab fa-twitter" style="font-size:1em;color:#fff"></i>
-                                    <i class="fab fa-google-plus-g" style="font-size:1em;color:#fff"></i>
-                                    <i class="fas fa-phone" style="font-size:1em;color:#fff"></i>
-                                    <i class="fas fa-envelope" style="font-size:1em;color:#fff"></i>
+                <div class="footer-overlay">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-md-3">
+                                <div class="logo-footer">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="">
+                                    <div class="footer-icons">
+                                        <i class="fab fa-facebook-f" style="font-size:1em;color:#fff"></i>
+                                        <i class="fab fa-twitter" style="font-size:1em;color:#fff"></i>
+                                        <i class="fab fa-google-plus-g" style="font-size:1em;color:#fff"></i>
+                                        <i class="fas fa-phone" style="font-size:1em;color:#fff"></i>
+                                        <i class="fas fa-envelope" style="font-size:1em;color:#fff"></i>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col-md-3 mission">
+                                <h3 class="footer-title">
+                                    Notre mission
+                                </h3>
+                                <p class="paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur est in, iste nisi ratione suscipit velit voluptatum! Beatae blanditiis corporis cumque expedita maxime, modi praesentium sequi sunt vero. Consectetur?
+                                </p>
+                            </div>
+                            <div class="col-md-3 wrapper-footer">
+                                <h3 class="footer-title">
+                                    plan du site
+                                </h3>
+                                <ul class="list-footer">
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 wrapper-footer">
+                                <h3 class="footer-title">
+                                    Partenaires
+                                </h3>
+                                <ul class="list-footer">
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                    <li class="list-footer--item"><a href="#">Item</a></li>
+                                </ul>
+                                <h3 class="footer-title">
+                                    Aide
+                                </h3>
+                                <h3 class="footer-title">
+                                    Contactez-nous
+                                </h3>
+                            </div>
                         </div>
-                        <div class="col-md-3 mission">
-                            <h3 class="footer-title">
-                                Notre mission
-                            </h3>
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur est in, iste nisi ratione suscipit velit voluptatum! Beatae blanditiis corporis cumque expedita maxime, modi praesentium sequi sunt vero. Consectetur?
-                            </p>
-                        </div>
-                        <div class="col-md-3 wrapper-footer">
-                            <h3 class="footer-title">
-                                plan du site
-                            </h3>
-                            <ul class="list-footer">
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 wrapper-footer">
-                            <h3 class="footer-title">
-                                Partenaires
-                            </h3>
-                            <ul class="list-footer">
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                                <li class="list-footer--item"><a href="#">Item</a></li>
-                            </ul>
-                            <h3 class="footer-title">
-                                Aide
-                            </h3>
-                            <h3 class="footer-title">
-                                Contactez-nous
-                            </h3>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="copyright-footer">Tous droits réservés - Sanishop ®</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -39,6 +39,9 @@ a{
   @extend .title-card;
   font-size: $font-size-h2;
   margin-bottom: 50px;
+  @include bp(xs){
+    font-size: $font-size-h3;
+  }
 }
 
 .title-second{
@@ -90,4 +93,9 @@ a{
   @extend .title-second;
   font-size: 14px;
   color: #fff;
+}
+
+.copyright-footer{
+  color: #fff;
+  text-align: center;
 }

@@ -28,6 +28,10 @@
     margin: auto;
     display: block;
     max-height: 68vh;
+    @include bp(xs){
+      top: 35%;
+      transform: translateY(-35%);
+    }
   }
 }
 

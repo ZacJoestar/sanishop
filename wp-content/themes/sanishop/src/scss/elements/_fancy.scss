@@ -11,10 +11,13 @@
 .fancy-title{
   padding: 20px 40px;
   margin: 0 auto;
-  width: 460px;
+  width: 75%;
   text-align: center;
   position: relative;
   z-index: 2;
+  @include bp(xs){
+    width: 75%;
+  }
   &--bg-gray{
     background-color: $gray-middle;
   }
@@ -31,4 +34,8 @@
   left: 60px;
   top: -20px;
   z-index: 1;
+  @include bp(xs){
+    width: 100%;
+    left: 0;
+  }
 }

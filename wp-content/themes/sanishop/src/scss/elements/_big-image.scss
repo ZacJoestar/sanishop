@@ -1,6 +1,9 @@
 .header-page{
   height: 70vh;
   width: 100%;
+  @include bp(xs){
+    height: 50vh;
+  }
 }
 
 .big-image{
@@ -10,6 +13,10 @@
   padding-right: 0;
   padding-left: 0;
   height: 70vh;
+  @include bp(xs){
+    position: relative;
+    height: 50vh;
+  }
 }
 
 .big-image-overlay{

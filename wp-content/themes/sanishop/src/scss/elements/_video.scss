@@ -5,6 +5,9 @@
     z-index: 1;
     opacity: 0;
     transition: opacity ease-in 1s;
+    @include bp(xs){
+      height: 220px;
+    }
   }
 }
 

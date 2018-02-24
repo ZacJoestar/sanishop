@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    //VIDEO //
+
     var aspect_ratio = 0.57;
 
     var $box = jQuery(".video-container");
@@ -21,6 +23,8 @@ $(document).ready(function(){
 
     });
 
+    // POPIN //
+
     $('.img-visuel-card, .item-gallery-wrapper').on('click', function() {
         var imgSrc = $(this).find('img').prop('src');
        $('.popin-container, .popin-overlay').fadeIn();
@@ -33,5 +37,21 @@ $(document).ready(function(){
         $('.popin-container, .popin-overlay').fadeOut();
         $('body').css('overflow','visible');
     });
+
+
+    // OPEN - CLOSE NAV MOBILE //
+
+    $('.btn-menu-trigger').on('click', function () {
+        $('.nav-mobile').toggleClass('nav-mobile-open');
+    });
+
+    $('.btn-close-menu').on('click', function () {
+        if($('.nav-mobile').hasClass('nav-mobile-open')){
+            $('.nav-mobile').removeClass('nav-mobile-open');
+        } else {
+
+        }
+    });
+
 
 });
