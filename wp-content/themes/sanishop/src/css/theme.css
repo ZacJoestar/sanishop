@@ -5948,7 +5948,7 @@ a {
   letter-spacing: 3px;
   color: #fff;
   font-family: 'Texbold';
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 .copyright {
   font-family: 'Droid';
@@ -6381,3 +6381,14 @@ footer {
 
 .wrapper-footer {
   padding-left: 50px; }
+
+.list-footer {
+  margin-bottom: 20px; }
+  .list-footer a {
+    color: #777777;
+    transition: color ease-in-out .3s; }
+    .list-footer a:hover {
+      color: #fff; }
+
+.mission {
+  padding-right: 50px; }

@@ -1,3 +1,18 @@
 .wrapper-footer{
   padding-left: 50px;
 }
+
+.list-footer{
+  margin-bottom: 20px;
+  a{
+    color: $gray-light;
+    transition: color ease-in-out .3s;
+    &:hover{
+      color: #fff;
+    }
+  }
+}
+
+.mission{
+  padding-right: 50px;
+}

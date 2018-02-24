@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af07ff5-33dc-423b-9d92-5c943d3a8ad0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_gallery.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_header.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/mixins/_breakpoints.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/css/theme.css" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/css/theme.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_img-visuel-card.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_img-visuel-card.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_popin.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_popin.scss" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_utility.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_utility.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_quad-layout.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_quad-layout.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/pages/_home.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/pages/_home.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="2084">
+              <caret line="321" column="43" lean-forward="false" selection-start-line="321" selection-start-column="43" selection-end-line="321" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -63,8 +49,18 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,7 +69,7 @@
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="0">
               <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
@@ -83,7 +79,7 @@
       <file leaf-file-name="_gallery.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="0">
               <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
@@ -93,7 +89,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="0">
               <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding />
             </state>
@@ -103,7 +99,7 @@
       <file leaf-file-name="_fancy.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="0">
               <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding />
             </state>
@@ -176,11 +172,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_gallery.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/pages/_home.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_listes.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_header.scss" />
       </list>
     </option>
   </component>
@@ -243,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +305,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -361,20 +357,23 @@
       <workItem from="1518806198370" duration="12614000" />
       <workItem from="1518854386758" duration="16341000" />
       <workItem from="1518941518421" duration="7771000" />
+      <workItem from="1519247558297" duration="1030000" />
+      <workItem from="1519462491808" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81435000" />
+    <option name="totallyTimeSpent" value="82509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16086236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29921874" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -519,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,13 +617,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
           <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="91" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="0">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding />
         </state>
@@ -637,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,23 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,21 +653,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="0">
           <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
@@ -699,24 +666,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="0">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_fancy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/elements/_typos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/src/scss/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/sanishop/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2084">
+          <caret line="321" column="43" lean-forward="false" selection-start-line="321" selection-start-column="43" selection-end-line="321" selection-end-column="43" />
           <folding />
         </state>
       </provider>
