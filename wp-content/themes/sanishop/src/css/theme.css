@@ -5996,10 +5996,14 @@ a {
   margin-bottom: 50px; }
   @media (max-width: 767px) {
     .title {
-      font-size: 24px; } }
+      font-size: 18px; } }
 
 .title-second, .title-third, .footer-title, .footer-social-label {
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 25px; }
+  @media (max-width: 767px) {
+    .title-second, .title-third, .footer-title, .footer-social-label {
+      font-size: 12px; } }
 
 .sub-title {
   font-family: 'Droid';
@@ -6235,6 +6239,10 @@ section::after {
 
 .title-separator-white {
   background-image: url("../images/separator-white.png"); }
+  @media (max-width: 767px) {
+    .title-separator-white {
+      width: 125px;
+      height: 25px; } }
 
 .bg-paragraph-card {
   padding-left: 0;

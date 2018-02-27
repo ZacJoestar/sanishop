@@ -60,4 +60,8 @@ section::after {
 .title-separator-white{
   @extend .title-separator;
   background-image: url("../images/separator-white.png");
+  @include bp(xs){
+    width: 125px;
+    height: 25px;
+  }
 }

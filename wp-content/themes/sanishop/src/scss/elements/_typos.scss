@@ -40,13 +40,17 @@ a{
   font-size: $font-size-h2;
   margin-bottom: 50px;
   @include bp(xs){
-    font-size: $font-size-h3;
+    font-size: $font-size-h4;
   }
 }
 
 .title-second{
   @extend .title-card;
   font-size: $font-size-h4;
+  line-height: 25px;
+  @include bp(xs){
+    font-size: $font-size-h6;
+  }
 }
 
 .sub-title{
