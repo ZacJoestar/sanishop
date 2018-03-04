@@ -17,6 +17,9 @@
 <body <?php body_class(); ?>>
 <nav class="nav">
 	<div class="main-header-wrapper <?php echo is_page('Contact') ? 'black-header' : ''?>">
+        <div class="main-logo">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="">
+        </div>
 		<a class="nav-link active" href="/sanishop">
 			Accueil
 			<span></span>
