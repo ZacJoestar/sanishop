@@ -1,0 +1,13 @@
+.text-img-bg-wrapper {
+  padding: 0 50px;
+  @include bp(xs) {
+    padding: 0 15px;
+  }
+}
+
+.text-img-bg {
+  padding: 100px;
+  @include bp(xs) {
+    padding: 30px;
+  }
+}

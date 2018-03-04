@@ -21,7 +21,7 @@ section::after {
 .ss-style-doublediagonal {
   z-index: 1;
   padding-top: 6em;
-  background-color: $gray-lighter;
+  background-color: $gray-light;
 }
 
 .ss-style-doublediagonal::before,
@@ -40,7 +40,7 @@ section::after {
 
 .ss-style-doublediagonal::before {
   height: 50%;
-  background: $gray-middle;
+  background: $gray;
   -webkit-transform: rotate(-3deg);
   transform: rotate(-3deg);
   -webkit-transform-origin: 3% 0;

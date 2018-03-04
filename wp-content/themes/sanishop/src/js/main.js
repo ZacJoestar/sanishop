@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     // POPIN //
 
-    $('.img-visuel-card, .item-gallery-wrapper').on('click', function() {
+    $('.img-visuel-card, .item-gallery-wrapper, .vertical-gallery-item').on('click', function() {
         var imgSrc = $(this).find('img').prop('src');
        $('.popin-container, .popin-overlay').fadeIn();
        $('.popin-container img').attr('src', imgSrc);
@@ -52,6 +52,5 @@ $(document).ready(function(){
 
         }
     });
-
 
 });

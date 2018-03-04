@@ -1,0 +1,18 @@
+.hero-header{
+  height: 100vh;
+  position: relative;
+}
+
+.title-hero{
+  position: absolute;
+  bottom: 150px;
+  .fancy-title{
+    width: auto;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin: 0 0 0 10px;
+  }
+  .fancy-paragraph{
+    left: 100px;
+  }
+}

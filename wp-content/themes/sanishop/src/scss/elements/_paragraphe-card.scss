@@ -1,18 +1,32 @@
+.bg-paragraph-card-global-wrapper {
+  display: table;
+  padding: 0;
+}
+
+.bg-paragraph-card-container {
+  display: table-row;
+  div[class^="col-"],
+  div[class*="col-"]{
+    display: table-cell;
+    float: none;
+  }
+}
+
 .bg-paragraph-card{
   padding-left: 0;
   padding-right: 0;
   .bg-paragraph-card-wrapper{
+    height: 100%;
     padding: 50px;
-    background-color: rgba(255,255,255,.7);
   }
 }
 
 .black-paragraph-card{
   padding-left: 0;
   padding-right: 0;
+  background-color: #000;
   .bg-paragraph-card-wrapper{
     padding: 50px;
-    background-color: #000;
     .title-second{
       color: #fff;
     }

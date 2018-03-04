@@ -6,11 +6,14 @@
 
 @import 'pages/global';
 @import 'pages/home';
+@import 'pages/bathroom';
+@import 'pages/contact';
 
 @import 'layouts/quad-layout';
 @import 'layouts/footer';
 
 @import 'elements/buttons';
+@import 'elements/vertical-gallery';
 @import 'elements/typos';
 @import 'elements/fancy';
 @import 'elements/utility';
@@ -23,3 +26,5 @@
 @import 'elements/popin';
 @import 'elements/gallery';
 @import 'elements/header';
+@import 'elements/hero';
+@import 'elements/forms';

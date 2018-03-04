@@ -3,7 +3,8 @@ footer{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  position: relative;
+  z-index: 2;
   .list{
     padding: 0 30px;
     li{

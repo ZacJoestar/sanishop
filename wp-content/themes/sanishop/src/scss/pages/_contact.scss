@@ -1,0 +1,23 @@
+.contact-infos-wrapper {
+  display: table;
+  padding-left: 0;
+  padding-right: 0;
+  .row{
+    display: table-row;
+    >.col-md-6:first-child {
+      display: table-cell;
+      float: none;
+    }
+    >.col-md-6:last-child {
+      display: table-cell;
+      float: none;
+    }
+  }
+}
+
+.contact-infos{
+  background-color: #000;
+  .paragraph--white{
+    padding: 0 150px;
+  }
+}

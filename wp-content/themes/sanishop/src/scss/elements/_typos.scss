@@ -48,6 +48,10 @@ a{
   @extend .title-card;
   font-size: $font-size-h4;
   line-height: 25px;
+  &--white {
+    @extend .title-second;
+    color: #fff;
+  }
   @include bp(xs){
     font-size: $font-size-h6;
   }
@@ -59,6 +63,11 @@ a{
   font-size: $font-size-h5;
   color: $gray-light;
   margin-top: 0;
+}
+
+.sub-title--white{
+  @extend .sub-title;
+  color: #fff;
 }
 
 .title-third{
@@ -82,10 +91,24 @@ a{
   text-decoration: underline;
 }
 
+.mailto{
+  font-family: 'Droid';
+  color: #fff;
+  &:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
 .paragraph{
   color: $gray-light;
   margin: 20px 0;
   line-height: 24px;
+  &--white{
+    @extend .paragraph;
+    color: #fff;
+    font-weight: 300;
+  }
 }
 
 
@@ -102,4 +125,18 @@ a{
 .copyright-footer{
   color: #fff;
   text-align: center;
+}
+
+.highlight-white {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border: solid 1px #fff;
+  padding: 100px;
+  text-align: center;
+  @include bp(xs) {
+    font-size: inherit;
+    padding: 30px;
+  }
 }

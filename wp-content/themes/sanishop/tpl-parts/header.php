@@ -14,14 +14,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <nav class="nav">
-	<div class="main-header-wrapper">
-		<a class="nav-link active" href="#">
+	<div class="main-header-wrapper <?php echo is_page('Contact') ? 'black-header' : ''?>">
+		<a class="nav-link active" href="/sanishop">
 			Accueil
 			<span></span>
 		</a>
-		<a class="nav-link" href="#">
+		<a class="nav-link" href="/sanishop/salles-de-bains">
 			Salles de bain
 			<span></span>
 		</a>
@@ -33,8 +33,8 @@
 			Spas Sauns Hammams JACUZZI®
 			<span></span>
 		</a>
-		<a class="nav-link disabled" href="#">
-			Plomberie
+		<a class="nav-link disabled" href="/sanishop/contact">
+			Contact
 			<span></span>
 		</a>
 	</div>

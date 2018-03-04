@@ -18,7 +18,7 @@
         <div class="main-wrapper">
             <div class="container-fluid">
                 <div class="row no-gutters">
-                    <div class="col-md-4 bg-paragraph-card" style="background: url('https://services-homedepot-com.s3.amazonaws.com/services/bathroom-installation-fee484cd-6ec6-4be3-b127-55c7f8dec39d.jpg') no-repeat center center; background-size:cover">
+                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-1.jpg') no-repeat center center; background-size:cover">
                         <div class="bg-paragraph-card-wrapper">
                             <h4 class="sub-title">Lorem ipsum dolor</h4>
                             <h3 class="title-second">Spas saunas</h3>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 bg-paragraph-card" style="background: url('https://www.totousa.com/filemanager_uploads/slideshows/hs_Neo750H.jpg') no-repeat center center; background-size:cover">
+                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
                         <div class="bg-paragraph-card-wrapper">
                             <h4 class="sub-title">Lorem ipsum dolor</h4>
                             <h3 class="title-second">Spas saunas</h3>
@@ -197,7 +197,6 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="row mb-5">
                         <div class="col-md-4">
                             <div class="features">
                                 <div class="features-wrapper">
@@ -242,7 +241,5 @@
                     </div>
                 </div>
             </div>
-            <?php get_template_part('tpl-part/footer'); ?>
         </div>
-	</body>
-</html>
+        <?php get_template_part('tpl-parts/footer'); ?>
