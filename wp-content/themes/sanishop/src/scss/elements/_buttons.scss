@@ -21,11 +21,11 @@
   &--fancy-gray{
     background-color: $gray-middle;
     border: solid 1px $gray-middle;
-    width: 250px;
+    width: 300px;
     position: relative;
     top: -50px;
     z-index: 2;
-    left: 65%;
+    left: 60%;
     @include bp(xs){
       left: 0;
       top: -35px;

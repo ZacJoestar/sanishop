@@ -7,67 +7,27 @@
                 <div class="col-md-12 big-image" style="background: url('http://www.culturespas.fr/wp-content/uploads/2016/05/city_spa_free_acqua.jpg') no-repeat center center; background-size:cover">
                     <div class="big-image-overlay">
                         <div class="big-image-text-wrapper">
-                            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+                            <h1 class="title">Spa · Jacuzzi · Salle de bain
                             <div class="title-separator-white hidden-xs"></div>
-                            <h3 class="title-second">Dicta ea eum in incidunt iusto</h3>
+                                <span style="font-size: 22px;letter-spacing: 5px">Valenciennes</span></h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main-wrapper">
-            <div class="container-fluid">
-                <div class="row no-gutters">
-                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-1.jpg') no-repeat center center; background-size:cover">
-                        <div class="bg-paragraph-card-wrapper">
-                            <h4 class="sub-title">Lorem ipsum dolor</h4>
-                            <h3 class="title-second">Spas saunas</h3>
-                            <p class="paragraph">
-                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
-                            </p>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 black-paragraph-card">
-                        <div class="bg-paragraph-card-wrapper">
-                            <h4 class="sub-title">Lorem ipsum dolor</h4>
-                            <h3 class="title-second">Spas saunas</h3>
-                            <p class="paragraph">
-                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
-                            </p>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
-                        <div class="bg-paragraph-card-wrapper">
-                            <h4 class="sub-title">Lorem ipsum dolor</h4>
-                            <h3 class="title-second">Spas saunas</h3>
-                            <p class="paragraph">
-                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eum in incidunt iusto maiores modi molestias nam natus necessitatibus neque praesentium provident quasi qui quis, reiciendis saepe sit tenetur?
-                            </p>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="container-fluid quad-layout">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 v-align-center">
                         <div class="wrapper-text-content">
                             <div class="wrapper-title">
-                                <h3 class="sub-title">Avec Sanishop à Valenciennes</h3>
-                                <h2 class="title">Accédez au confort</h2>
+                                <h2 class="sub-title">Depuis 1972</h2>
+                                <h2 class="title">Expert du Spa et de la salle de bain</h2>
                             </div>
                             <p class="paragraph">
-                                Sanishop, créé en 1972 à Valenciennes propose la vente et l'installation de salles de bains et de sanitaires.
-                                Nous réalisons et aménageons sur-mesure la salle de bains dont vous rêvez.
-                                Nos professionnels proposent un savoir-faire et un travail de qualité.
+                                Implanté à <b>Valenciennes</b>, à 30 mn de <b>Lille</b>, Sanishop est le spécialiste du Spa, de la <b>salle de bain</b>, et du <b>chauffage</b> dans la région Hauts-de-France (anciennement <b>Nord-Pas-de-Calais</b>).
+
+                                Depuis 1972, notre entreprise a développé un savoir-faire inégalable dans la vente et l’installation d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’1 architecte d’intérieur de renom, de plusieurs monteurs/poseurs/carreleurs, et d’un 1 technicien dépannage, se tient à votre disposition pour vous accompagner dans la réussite de votre projet.
                             </p>
                         </div>
                     </div>
@@ -124,16 +84,82 @@
                 <img src="">
             </div>
             <!--END POPIN-->
+            <div class="container-fluid bg-paragraph-card-global-wrapper">
+                <div class="row no-gutters bg-paragraph-card-container">
+                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-1.jpg') no-repeat center center; background-size:cover">
+                        <div class="bg-paragraph-card-wrapper">
+                            <h3 class="sub-title">Vente et installation</h3>
+                            <h3 class="title-second">Spa, jacuzzi, sauna, hammam</h3>
+                            <ul class="list">
+                                <li>
+                                    Sanishop Wellness : showroom de 250 m2 à Valenciennes avec centre de test Spa, jacuzzi, sauna, hammam.
+                                </li>
+                                <li>
+                                    Marques Jacuzzi® et KLAFTS® (leaders mondiaux sur le marché du Spa)
+                                </li>
+                                <li>
+                                    Livraison et installation de Spa, sauna ou hammam à domicile
+                                </li>
+                                <li>
+                                    Conseils personnalisés
+                                </li>
+                            </ul>
+                            <div class="main-btn">
+                                <a href="#">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 black-paragraph-card">
+                        <div class="bg-paragraph-card-wrapper">
+                            <h3 class="sub-title">Vente et installation</h3>
+                            <h3 class="title-second">salle de bain sur mesure</h3>
+                            <ul class="list list-white">
+                                <li>Expert en salle de bain de prestige (équipements et matériaux nobles)</li>
+                                <li>Création d’une étude 3D pour imaginer votre future salle de bain</li>
+                                <li>Exposition dans notre showroom salle de bain à Valenciennes</li>
+                                <li>Meubles, baignoires, balnéo, accessoires, robinetterie de grandes marques réputées pour leur qualité (Ambiance Bain, Decotec, Jacob Delafon,  Pom d’or…)</li>
+                            </ul>
+                            <div class="main-btn">
+                                <a href="#">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
+                        <div class="bg-paragraph-card-wrapper">
+                            <h3 class="sub-title">Vente et installation</h3>
+                            <h3 class="title-second">chauffage et solutions d’eau chaude</h3>
+                            <ul class="list">
+                                <li>Intervention rapide et efficace</li>
+                                <li>Vente , installation, dépannage, SAV, contrat d’entretien</li>
+                                <li>Chauffage et énergies renouvelables</li>
+                                <li>Remplacement, réparation, entretien de chaudière</li>
+                                <li>Systèmes de production d’eau chaude gaz ou électrique</li>
+                                <li>Travaux de plomberie</li>
+                            </ul>
+                            <div class="main-btn">
+                                <a href="#">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container-fluid sanishop-wellness">
                 <div class="row v-align-center">
                     <div class="col-sm-12 col-md-6">
-                        <h2 class="title fancy-title fancy-title--bg-gray">Sanishop Wellness</h2>
-                        <p class="fancy-paragraph">
-                            Sanishop, c'est aussi Sanishop Wellness depuis juin 2013, une salle d'exposition dédiée spas,saunas, hammams de notre partenaire JACUZZI®  pour votre Bien- être. Installation dans toute la région nord.
-                            Nos conseils personnalisés et une étude en 3D vous aident à réaliser ce dont vous rêvez pour votre salle de bains ou espace Wellness.
-                        </p>
+                        <h2 class="title fancy-title fancy-title--bg-gray">pourquoi Sanishop ?</h2>
+                        <div class="fancy-paragraph">
+                            <ul class="list list-white">
+                                <li>46 ans de savoir-faire et d’expérience dans les secteurs Spa, salle de bain, chauffage</li>
+                                <li>Revendeur exclusive de la marque Jacuzzi® dans la région Hauts-de-France</li>
+                                <li>Lauréat du 1er prix dans la catégorie « Pro de la Salle de Bain » au salon mondial Bâtimat 2017 !</li>
+                                <li>Professionnel certifié en système de chauffage et énergies renouvelables (PG, RGE, Qualibat)</li>
+                                <li>Une équipe d’experts à l’écoute et disponible</li>
+                                <li>Devis gratuit</li>
+                                <li>Paiement par chèque, carte bancaire ou espèce</li>
+                            </ul>
+                        </div>
                         <div class="main-btn main-btn--fancy-gray">
-                            <a href="#">En savoir plus</a>
+                            <a href="#">DEMANDEZ VOTRE DEVIS</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -176,8 +202,8 @@
             <div class="container-fluid video">
                 <div class="row mb-5">
                     <div class="col-md-12 text-center">
-                        <h3 class="sub-title">La qualité Sanishop</h3>
-                        <h2 class="title">Nos petits plus</h2>
+                        <h3 class="sub-title">Valenciennes et alentours</h3>
+                        <h2 class="title">Zone d’intervention Sanishop</h2>
                     </div>
                 </div>
                 <div class="row mb-5">
@@ -197,48 +223,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                        <div class="col-md-4">
-                            <div class="features">
-                                <div class="features-wrapper">
-                                    <div class="features-title">
-                                        <i class="fas fa-cubes" style="font-size:2em"></i>
-                                        <h2 class="title-third">Réalisation de plans en 3D</h2>
-                                    </div>
-                                    <p>Nous installons du chauffage et des solutions eau chaude avec Sanishop Energies.
-                                        Nous assurons également un service de dépannage pour sanitaire, chauffage et plomberie.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="features">
-                                <div class="features-wrapper">
-                                    <div class="features-title">
-                                        <i class="fas fa-comment-alt" style="font-size:2em"></i>
-                                        <h2 class="title-third">Réalisation de plans en 3D</h2>
-                                    </div>
-                                    <p>
-                                        Nous installons du chauffage et des solutions eau chaude avec Sanishop Energies.
-                                        Nous assurons également un service de dépannage pour sanitaire, chauffage et plomberie.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="features">
-                                <div class="features-wrapper">
-                                    <div class="features-title">
-                                        <i class="fas fa-truck" style="font-size:2em"></i>
-                                        <h2 class="title-third">Réalisation de plans en 3D</h2>
-                                    </div>
-                                    <p>
-                                        Nous installons du chauffage et des solutions eau chaude avec Sanishop Energies.
-                                        Nous assurons également un service de dépannage pour sanitaire, chauffage et plomberie.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
