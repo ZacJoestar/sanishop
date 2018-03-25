@@ -1,0 +1,32 @@
+.strength-strate {
+  .strength-title {
+    font-size: 40px;
+    letter-spacing: 1px;
+    @include bp(xs) {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  }
+  .strength-list {
+    list-style: none;
+    li {
+      font-size: 16px;
+      margin-bottom: 30px;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        background-image: url("../images/icons/checked-1.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        @include bp(xs) {
+          left: 15px;
+        }
+      }
+    }
+  }
+}

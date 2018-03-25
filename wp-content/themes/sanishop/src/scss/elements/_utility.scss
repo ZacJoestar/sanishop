@@ -105,7 +105,14 @@ $pb-10: 100px;
 .v-align-center{
   display: flex;
   align-items: center;
+  justify-content: center;
   @include bp(xs){
     display: block;
   }
+}
+
+//FALLBACK CONTAINER
+.inner-wrapper {
+  width: 70%;
+  margin: auto;
 }

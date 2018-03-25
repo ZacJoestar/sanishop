@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     //VIDEO //
 
-    var aspect_ratio = 0.57;
+    var aspect_ratio = 0.8;
 
-    var $box = jQuery(".video-container");
+    var $box = jQuery(".video-embed");
 
     jQuery(document).ready(function($) {
         $box.height( $box.width() * aspect_ratio );

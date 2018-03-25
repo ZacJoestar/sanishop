@@ -199,26 +199,57 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid video">
+            <div class="container zones">
                 <div class="row mb-5">
                     <div class="col-md-12 text-center">
                         <h3 class="sub-title">Valenciennes et alentours</h3>
                         <h2 class="title">Zone d’intervention Sanishop</h2>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        <div class="video-embed">
-                            <iframe id="video" frameborder="0" width="100%" height="600px" src="//www.dailymotion.com/embed/video/x13x0y8" allowfullscreen allow="autoplay"></iframe>
-                            <div class="video-cover" style="background: url('http://architectureideas.info/wp-content/uploads/2009/01/Bathroom.jpg') no-repeat center center; background-size:cover">
-                                <div class="overlay-video">
-                                    <div id="play-video" class="video-btn-play"></div>
+                <div class="row zones-wrapper">
+                    <div class="zones-inner">
+                        <div class="col-md-6 col-xs-12 zone-container">
+                            <h3 class="zone-title">Spa, sauna, hammam</h3>
+                            <div class="clearfix">
+                                <hr class="zone-separator"/>
+                            </div>
+                            <ul class="zone-list-container">
+                                <li>Nord <span class="departement">(59)</span></li>
+                                <li>Pas-de-Calais <span class="departement">(62)</span></li>
+                                <li>Aisne <span class="departement">(02)</span></li>
+                                <li>Ardennes <span class="departement">(08)</span></li>
+                                <li>Oise <span class="departement">(60)</span></li>
+                                <li>Somme <span class="departement">(80)</span></li>
+                                <li>Belgique francophone</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-12" style="padding: 0;">
+                            <div class="video-embed">
+                                <iframe id="video" frameborder="0" width="100%" src="//www.dailymotion.com/embed/video/x13x0y8" allowfullscreen allow="autoplay"></iframe>
+                                <div class="video-cover" style="background: url('http://architectureideas.info/wp-content/uploads/2009/01/Bathroom.jpg') no-repeat center center; background-size:cover">
+                                    <div class="overlay-video">
+                                        <div id="play-video" class="video-btn-play"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"></div>
+                </div>
+                <div class="row zones-wrapper">
+                    <div class="zones-inner">
+                        <div class="col-md-6 col-xs-12 zone-illustration" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/serviettes.jpg') no-repeat center center; background-size:cover">
+
+                        </div>
+                        <div class="col-xs-12 col-md-6 zone-container">
+                            <h3 class="zone-title">Chauffage et salle de bain</h3>
+                            <div class="clearfix">
+                                <hr class="zone-separator"/>
+                            </div>
+                            <p class="zone-text">
+                                Déplacement dans un rayon de 30 à 40 km autour de Valenciennes (Valenciennes, Lille, Lens, Cambrai, Douai…).
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container">

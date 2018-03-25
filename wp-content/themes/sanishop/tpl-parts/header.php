@@ -20,26 +20,21 @@
         <div class="main-logo">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="">
         </div>
-		<a class="nav-link active" href="/sanishop">
-			Accueil
-			<span></span>
-		</a>
-		<a class="nav-link" href="/sanishop/salles-de-bains">
-			Salles de bain
-			<span></span>
-		</a>
-		<a class="nav-link" href="#">
-			Installation de sanitaires
-			<span></span>
-		</a>
-		<a class="nav-link disabled" href="#">
-			Spas Sauns Hammams JACUZZI®
-			<span></span>
-		</a>
-		<a class="nav-link disabled" href="/sanishop/contact">
-			Contact
-			<span></span>
-		</a>
+        <a class="nav-link active" href="/sanishop">
+            Accueil
+        </a>
+        <a class="nav-link" href="/sanishop/salles-de-bains">
+            Salles de bain
+        </a>
+        <a class="nav-link" href="#">
+            Installation de sanitaires
+        </a>
+        <a class="nav-link disabled" href="#">
+            Spas Sauns Hammams JACUZZI®
+        </a>
+        <a class="nav-link disabled" href="/sanishop/contact">
+            Contact
+        </a>
 	</div>
 </nav>
 <div class="btn-menu-trigger hidden-md hidden-lg">

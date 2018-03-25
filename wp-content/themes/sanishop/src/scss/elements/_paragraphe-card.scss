@@ -1,14 +1,19 @@
 .bg-paragraph-card-global-wrapper {
-  display: table;
-  padding: 0;
+  @include bp(md) {
+    display: table;
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .bg-paragraph-card-container {
-  display: table-row;
-  div[class^="col-"],
-  div[class*="col-"]{
-    display: table-cell;
-    float: none;
+  @include bp(md) {
+    display: table-row;
+    div[class^="col-"],
+    div[class*="col-"]{
+      display: table-cell;
+      float: none;
+    }
   }
 }
 

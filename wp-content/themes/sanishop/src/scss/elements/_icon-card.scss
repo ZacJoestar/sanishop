@@ -1,0 +1,54 @@
+//ICONS ROW
+.icons-wrapper {
+
+}
+
+.icon-container {
+  background-color: transparent;
+  width: 90px;
+  height: 90px;
+  padding: 15px;
+  border-radius: 100px;
+  margin: auto;
+  margin-bottom: 30px;
+  transition: all ease-in-out .3s;
+  object {
+    display: block;
+    width: 60px;
+    margin: auto;
+    transition: all ease-in-out .3s;
+  }
+}
+
+.icon-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  p {
+    line-height: 28px;
+    font-size: 16px;
+  }
+  &:hover .icon-container{
+    background-color: $gray-lighter;
+  }
+}
+
+.alert-custom {
+  padding: 10px;
+  background-color: $gray-lighter;
+  text-align: center;
+  @include bp(lg) {
+    text-align: left;
+  }
+  .icon-container ,
+  p{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  .icon-container {
+    margin-bottom: 0;
+    object {
+      width: 50px;
+    }
+  }
+}

@@ -30,12 +30,3 @@
 .features-text-wrapper{
   margin-left: 40px;
 }
-
-.city-tile {
-  background-color: #fff;
-  transform: scale(1);
-  &:hover {
-    transform: scale(1.2);
-    box-shadow: 1px 1px 1px rgba(0,0,0,.7);
-  }
-}
