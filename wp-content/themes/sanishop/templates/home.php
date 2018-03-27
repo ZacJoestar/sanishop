@@ -104,9 +104,6 @@
                                     Conseils personnalisés
                                 </li>
                             </ul>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 black-paragraph-card">
@@ -119,9 +116,6 @@
                                 <li>Exposition dans notre showroom salle de bain à Valenciennes</li>
                                 <li>Meubles, baignoires, balnéo, accessoires, robinetterie de grandes marques réputées pour leur qualité (Ambiance Bain, Decotec, Jacob Delafon,  Pom d’or…)</li>
                             </ul>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
@@ -136,9 +130,6 @@
                                 <li>Systèmes de production d’eau chaude gaz ou électrique</li>
                                 <li>Travaux de plomberie</li>
                             </ul>
-                            <div class="main-btn">
-                                <a href="#">En savoir plus</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -159,7 +150,7 @@
                             </ul>
                         </div>
                         <div class="main-btn main-btn--fancy-gray">
-                            <a href="#">DEMANDEZ VOTRE DEVIS</a>
+                            <a href="<?php echo site_url(); ?>/contact">DEMANDEZ VOTRE DEVIS</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -208,7 +199,7 @@
                 </div>
                 <div class="row zones-wrapper">
                     <div class="zones-inner">
-                        <div class="col-md-6 col-xs-12 zone-container">
+                        <div class="col-md-6 col-sm-12 zone-container">
                             <h3 class="zone-title">Spa, sauna, hammam</h3>
                             <div class="clearfix">
                                 <hr class="zone-separator"/>
@@ -223,7 +214,7 @@
                                 <li>Belgique francophone</li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-xs-12" style="padding: 0;">
+                        <div class="col-md-6 col-sm-12" style="padding: 0;">
                             <div class="video-embed">
                                 <iframe id="video" frameborder="0" width="100%" src="//www.dailymotion.com/embed/video/x13x0y8" allowfullscreen allow="autoplay"></iframe>
                                 <div class="video-cover" style="background: url('http://architectureideas.info/wp-content/uploads/2009/01/Bathroom.jpg') no-repeat center center; background-size:cover">
@@ -237,10 +228,10 @@
                 </div>
                 <div class="row zones-wrapper">
                     <div class="zones-inner">
-                        <div class="col-md-6 col-xs-12 zone-illustration" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/serviettes.jpg') no-repeat center center; background-size:cover">
+                        <div class="col-md-6 col-sm-12 zone-illustration" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/serviettes.jpg') no-repeat center center; background-size:cover">
 
                         </div>
-                        <div class="col-xs-12 col-md-6 zone-container">
+                        <div class="col-sm-12 col-md-6 zone-container">
                             <h3 class="zone-title">Chauffage et salle de bain</h3>
                             <div class="clearfix">
                                 <hr class="zone-separator"/>

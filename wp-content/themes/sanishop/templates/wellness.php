@@ -9,7 +9,7 @@
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
 <div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
-    <div class="title-hero hidden-xs">
+    <div class="title-hero">
         <h1 class="title fancy-title fancy-title--bg-gray">Spa Jacuzzi Hammam Sauna Valenciennes</h1>
         <p class="fancy-paragraph">
             Vente de Spa Jacuzzi, sauna, hammam à Valenciennes : installation dans toute la région Nord Pas de Calais et Belgique francophone, Showroom de 250 m2, conseils
@@ -51,7 +51,7 @@
                     Le hammam, aussi appelé bain truc, s’inspire directement des rituels des termes romains. Les cabines  chauffées entre 40°C et 60°C plongent les utilisateurs dans un bain de vapeur humide, véritable brouillard. La chaleur est produite par un générateur de vapeur. Traditionnellement, la séance de hammam se termine par une douche froide pour resserrer les pores et tonifier la peau.
                 </p>
                 <div class="main-btn">
-                    <a href="/hammam">Je veux acheter un hammam</a>
+                    <a href="<?php echo site_url(); ?>/hammam">Je veux acheter un hammam</a>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
                     L’achat d’un Spa ou Jacuzzi® (Spa est le terme générique alors que Jacuzzi® est une marque déposée) vous permet de profiter à volonté des bienfaits de l’hydrothérapie. L’eau chaude a un effet relaxant immédiat et le bain à remous procure un massage agréable pour une sensation de détente sans égale.
                 </p>
                 <div class="main-btn">
-                    <a href="/spa">Je veux acheter un spa</a>
+                    <a href="<?php echo site_url(); ?>/spa">Je veux acheter un spa</a>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                     Originaire des pays nordiques, le sauna se présente sous la forme d’une cabine en bois. À l’intérieur, la chaleur est produite par un poêle au feu de bois, au gaz, ou électrique. Elle peut aussi provenir de radiateurs infrarouges. Dans un sauna, l’air est sec et la chaleur monte généralement entre 70°C et 100°C. La coutume finlandaise veut que l’on arrose régulièrement les pierres volcaniques posées sur le poêle afin de produire un minimum de vapeur. Ses bienfaits sont nombreux.
                 </p>
                 <div class="main-btn">
-                    <a href="/sauna">Je veux acheter un sauna</a>
+                    <a href="<?php echo site_url(); ?>/sauna">Je veux acheter un sauna</a>
                 </div>
             </div>
         </div>

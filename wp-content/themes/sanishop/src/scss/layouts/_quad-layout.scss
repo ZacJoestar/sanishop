@@ -1,6 +1,7 @@
 .quad-layout {
-  height: 70vh;
-  @include bp(xs){
+  height: 700px;
+  @include bp(sm-md){
+    padding-bottom: 50px;
     height: auto;
   }
   .row{
@@ -8,12 +9,12 @@
   }
   .col-md-4.v-align-center{
     height: 100%;
-    @include bp(xs){
+    @include bp(sm-md){
       height: auto;
     }
   }
   .wrapper-text-content{
-    @include bp(xs){
+    @include bp(sm-md){
       padding-top: 50px;
       padding-bottom: 50px;
     }

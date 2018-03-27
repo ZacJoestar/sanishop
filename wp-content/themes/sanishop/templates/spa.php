@@ -9,7 +9,7 @@
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
 <div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
-	<div class="title-hero hidden-xs">
+	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Spa Jacuzzi Valenciennes</h1>
 		<p class="fancy-paragraph">
             Vente et installation de Spa Jacuzzi ® dans le Nord et la Belgique francophone, Visitez notre Showroom Spa Jacuzzi ® à Valenciennes. 46 ans d’expérience !
@@ -86,7 +86,7 @@
                     Rendez-vous dans notre magasin à Valenciennes, ou contactez-nous par mail, par téléphone, ou via le formulaire pour obtenir rapidement votre devis gratuit.
 				</p>
                 <div class="main-btn">
-                    <a href="/hammam">Demandez votre devis</a>
+                    <a href="<?php echo site_url(); ?>/contact">Demandez votre devis</a>
                 </div>
 			</div>
 		</div>

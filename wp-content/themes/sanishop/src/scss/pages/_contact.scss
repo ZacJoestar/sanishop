@@ -1,23 +1,41 @@
 .contact-infos-wrapper {
-  display: table;
-  padding-left: 0;
-  padding-right: 0;
-  .row{
-    display: table-row;
-    >.col-md-6:first-child {
-      display: table-cell;
-      float: none;
-    }
-    >.col-md-6:last-child {
-      display: table-cell;
-      float: none;
+  @include bp(lg) {
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+    .row {
+      display: table-row;
+      > div[class^='col-'] {
+        display: table-cell;
+        float: none;
+      }
     }
   }
 }
 
 .contact-infos{
   background-color: #000;
+  padding-bottom: 80px;
   .paragraph--white{
     padding: 0 150px;
+    @include bp(sm-md) {
+      padding: 0 20px;
+    }
   }
+}
+
+.success {
+  margin-top: 30px;
+  border: solid 2px green;
+  color: green;
+  padding: 20px;
+  width: 100%;
+}
+
+.error {
+  margin-top: 30px;
+  border: solid 2px red;
+  color: red;
+  padding: 20px;
+  width: 100%;
 }

@@ -6,13 +6,26 @@
 .title-hero{
   position: absolute;
   bottom: 150px;
+  @include bp(sm-md) {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    margin: auto;
+  }
   .fancy-title{
     width: auto;
     background-color: #fff;
     padding: 10px 30px;
     margin: 0 0 0 10px;
+    @include bp(sm-md) {
+      font-size: 20px;
+      margin: auto;
+    }
   }
   .fancy-paragraph{
     left: 100px;
+    @include bp(sm-md) {
+      left:0 !important;
+    }
   }
 }

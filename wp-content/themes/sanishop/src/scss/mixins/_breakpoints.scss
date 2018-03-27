@@ -5,10 +5,13 @@
     @media (min-width: 1440px) { @content; }
   }
   @if $point == lg {
-    @media (min-width: 1200px) { @content; }
+    @media (min-width: 1170px) { @content; }
   }
   @else if $point == md {
     @media (min-width: 992px) { @content; }
+  }
+  @else if $point == sm-md {
+    @media (max-width: 991px) { @content; }
   }
   @else if $point == sm {
     @media (min-width: 768px)  { @content; }

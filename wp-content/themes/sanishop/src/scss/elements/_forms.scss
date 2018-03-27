@@ -28,9 +28,15 @@
   margin-bottom: 0;
   .col-sm-6:first-child{
     padding-right: 0;
+    @include bp(sm-md) {
+      padding-right: 15px;
+    }
   }
   .col-sm-6:nth-child(2){
     padding-left: 0;
+    @include bp(sm-md) {
+      padding-left : 15px;
+    }
   }
 }
 

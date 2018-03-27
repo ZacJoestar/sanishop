@@ -18,54 +18,69 @@
 <nav class="nav">
 	<div class="main-header-wrapper <?php echo is_page('Contact') ? 'black-header' : ''?>">
         <div class="main-logo">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="">
+            <a href="<?php echo site_url(); ?>/" alt="Sanishop" title="Sanishop"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt=""></a>
         </div>
-        <a class="nav-link active" href="/sanishop">
-            Accueil
-        </a>
-        <a class="nav-link" href="/sanishop/salles-de-bains">
-            Salles de bain
-        </a>
-        <a class="nav-link" href="#">
-            Installation de sanitaires
-        </a>
-        <a class="nav-link disabled" href="#">
-            Spas Sauns Hammams JACUZZI®
-        </a>
-        <a class="nav-link disabled" href="/sanishop/contact">
-            Contact
-        </a>
+        <div class="nav-item-wrapper">
+            <a class="nav-link active" href="<?php echo site_url(); ?>/">
+                Accueil
+            </a>
+            <a class="nav-link" href="<?php echo site_url(); ?>/salle-de-bain">
+                Salle de bain
+            </a>
+            <a class="nav-link" href="<?php echo site_url(); ?>/espace-wellness">
+                Espace wellness
+            </a>
+            <a class="nav-link disabled" href="<?php echo site_url(); ?>/spa">
+                Spa
+            </a>
+            <a class="nav-link disabled" href="<?php echo site_url(); ?>/sauna">
+                Sauna
+            </a>
+            <a class="nav-link disabled" href="<?php echo site_url(); ?>/hammam">
+                Hammam
+            </a>
+            <a class="nav-link disabled" href="<?php echo site_url(); ?>/chauffage">
+                CHAUFFAGE ET SOLUTIONS EAU CHAUDE
+            </a>
+            <a class="nav-link disabled" href="<?php echo site_url(); ?>/contact">
+                contact
+            </a>
+        </div>
 	</div>
 </nav>
-<div class="btn-menu-trigger hidden-md hidden-lg">
+<div class="btn-menu-trigger">
 	<i class="fas fa-bars" style="font-size:3em;color:#fff"></i>
 </div>
 <nav class="nav-mobile">
 	<div class="btn-close-menu"></div>
 	<div class="logo-mobile">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent-black.png" alt="">
+        <a href="<?php echo site_url(); ?>/" alt="Sanishop" title="Sanishop"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent-black.png" alt=""></a>
 	</div>
 	<div class="main-header-wrapper">
-		<a class="nav-link active" href="#">
+		<a class="nav-link active" href="<?php echo site_url(); ?>/">
 			Accueil
-			<span></span>
 		</a>
-		<a class="nav-link" href="#">
-			Salles de bain
-			<span></span>
+		<a class="nav-link" href="<?php echo site_url(); ?>/salle-de-bain">
+			Salle de bain
 		</a>
-		<a class="nav-link" href="#">
-			Installation de sanitaires
-			<span></span>
+		<a class="nav-link" href="<?php echo site_url(); ?>/espace-wellness">
+			Espace wellness
 		</a>
-		<a class="nav-link disabled" href="#">
-			Spas Sauns Hammams JACUZZI®
-			<span></span>
+		<a class="nav-link disabled" href="<?php echo site_url(); ?>/spa">
+			Spa
 		</a>
-		<a class="nav-link disabled" href="#">
-			Plomberie
-			<span></span>
+		<a class="nav-link disabled" href="<?php echo site_url(); ?>/sauna">
+			Sauna
 		</a>
+        <a class="nav-link disabled" href="<?php echo site_url(); ?>/hammam">
+            Hammam
+        </a>
+        <a class="nav-link disabled" href="<?php echo site_url(); ?>/chauffage">
+            CHAUFFAGE ET SOLUTIONS EAU CHAUDE
+        </a>
+        <a class="nav-link disabled" href="<?php echo site_url(); ?>/contact">
+            contact
+        </a>
 	</div>
 	<div class="header-icons">
 		<i class="fab fa-facebook-f" style="font-size:1em;color:rgba(119,119,119,.6)"></i>

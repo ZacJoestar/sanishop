@@ -16,7 +16,7 @@
 				</div>
 				<div class="col-md-3 mission">
 					<h3 class="footer-title">
-						Notre mission
+						informations
 					</h3>
 					<p class="paragraph">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur est in, iste nisi ratione suscipit velit voluptatum! Beatae blanditiis corporis cumque expedita maxime, modi praesentium sequi sunt vero. Consectetur?
@@ -37,18 +37,7 @@
 				</div>
 				<div class="col-md-3 wrapper-footer">
 					<h3 class="footer-title">
-						Partenaires
-					</h3>
-					<ul class="list-footer">
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-					</ul>
-					<h3 class="footer-title">
-						Aide
-					</h3>
-					<h3 class="footer-title">
-						Contactez-nous
+                        <a href="<?php echo site_url(); ?>/sanishop/contact" style="color:#fff">Contactez-nous</a>
 					</h3>
 				</div>
 			</div>
