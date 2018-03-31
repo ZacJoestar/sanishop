@@ -12,7 +12,7 @@
 	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Hammam Valenciennes</h1>
 		<p class="fancy-paragraph">
-            Vente et installation de Hammam marque Jacuzzi ® dans le Nord Pas de Calais et alentours. Visitez notre Showroom hammam à Valenciennes. 46 ans d’expérience !
+            Vente et installation de Hammam marque Jacuzzi® dans le Nord Pas de Calais et alentours. Visitez notre Showroom hammam à Valenciennes. 46 ans d’expérience !
 		</p>
 	</div>
 </div>
@@ -25,10 +25,17 @@
 					<h2 class="title">Vente et installation de hammam</h2>
 				</div>
 				<p class="list">
-                    Envie de profiter des bienfaits du hammam à la maison ? Sanishop, revendeur et concessionnaire exclusif des hammams de la marque Jacuzzi® dans les <b>Hauts-de-France</b> (anciennement <b>Nord-Pas-de-Calais</b>), vous aide à trouver le produit le plus adapté à vos besoins et à votre espace.
-                    Nous vous accueillons dans notre showroom situé à Valenciennes, près de Lille, pour vous présenter nos différentes gammes de hammams et répondre à toutes vos questions. Après un premier contact physique, par mail, ou par téléphone, notre équipe d’experts vient à votre rencontre afin de concrétiser votre projet.
-                    Fort de plus de 46 ans d’expérience et de savoir-faire dans la vente et l’installation de hammam et de Spa, nous vous garantissons des produits de qualité (Jacuzzi® est le leader mondial dans le secteur du Spa), et un service d’installation rapide et efficace.
-				</p>
+                    Envie de profiter des bienfaits du hammam à la maison ? Sanishop, revendeur et concessionnaire
+                    exclusif des hammams de la marque Jacuzzi® dans les <b>Hauts-de-France</b> (anciennement <b>Nord-
+                        Pas-de-Calais</b>), vous aide à trouver le produit le plus adapté à vos besoins et à votre espace.
+                    Nous vous accueillons dans notre showroom situé à <b>Valenciennes</b>, près de <b>Lille</b>, pour vous
+                    présenter nos différentes gammes de hammams et répondre à toutes vos questions. Après un
+                    premier contact physique, par mail, ou par téléphone, notre équipe d’experts vient à votre
+                    rencontre afin de concrétiser votre projet.
+                    Fort d’une belle et longue expérience et de savoir-faire dans la vente et l’installation de hammam
+                    et de Spa, nous vous garantissons des produits de qualité (Jacuzzi® est le leader mondial dans le
+                    secteur du Spa), et un service d’installation rapide et efficace.
+                </p>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -57,11 +64,16 @@
 	<div class="row no-gutters bg-paragraph-card-container">
 		<div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
 			<div class="bg-paragraph-card-wrapper">
-                <h3 class="sub-title">Hammam, sauna, jacuzzi à Valenciennes</h3>
+                <h3 class="sub-title">Hammam, sauna, Spa Jacuzzi® à Valenciennes</h3>
                 <h2 class="title-second">Visitez notre showroom</h2>
                 <p class="paragraph">
-                    Vous avez besoin de voir poux choisir ? Vous aimeriez discuter face à face avec un expert du hammam ? Rendez-vous dans notre magasin à Valenciennes afin de découvrir l’espace Sanishop Wellness : les meilleurs hammams, saunas, et Spas Jacuzzi sont réunis pour vous dans un showroom de 250 m2 ! Un conseiller est disponible pour vous présenter les hammams Jacuzzi® correspondant à vos attentes.
-                    Hammam au design raffiné ou minimaliste, modèle classique ou innovant, grand ou petit volume… Lequel vous fera transpirer de bonheur ?
+                    Vous avez besoin de voir poux choisir ? Vous aimeriez discuter face à face avec un expert du
+                    hammam ? Rendez-vous dans notre magasin à Valenciennes afin de découvrir l’espace Sanishop
+                    Wellness : les meilleurs hammams, saunas, et Spas Jacuzzi® sont réunis pour vous dans un
+                    showroom de 250 m2 ! Un conseiller est disponible pour vous présenter les hammams Jacuzzi®
+                    correspondant à vos attentes.
+                    Hammam au design raffiné ou minimaliste, modèle classique ou innovant, grand ou petit volume...
+                    Lequel vous fera transpirer de bonheur ?
                 </p>
 			</div>
 		</div>
@@ -86,7 +98,7 @@
 					Rendez-vous dans notre magasin à Valenciennes, ou contactez-nous par mail, par téléphone, ou via le formulaire pour obtenir rapidement votre devis gratuit.
 				</p>
 				<div class="main-btn">
-					<a href="<?php echo site_url(); ?>/hammam">Demandez votre devis</a>
+					<a href="<?php echo site_url(); ?>/contact">Demandez votre devis</a>
 				</div>
 			</div>
 		</div>

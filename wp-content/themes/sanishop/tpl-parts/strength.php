@@ -5,12 +5,12 @@
         </div>
         <div class="col-md-6 col-sm-12">
             <ul class="strength-list">
-                <li>46 ans d’expérience dans la vente de Spa, hammam, sauna</li>
-                <li>Spas et hammams de la célèbre marque Jacuzzi® : Gamme Italian Design,  gamme professionnelle, gamme J200, J300, J400… </li>
-                <li>Saunas des marques Jacuzzi® et Klafts®</li>
-                <li>Installation à domicile dans le Nord (59), Pas-de-Calais (62), Aisne (02),  Ardennes (08), Oise (60), Somme (80), Belgique francophone.</li>
-                <li>Conseils d’experts personnalisés.</li>
-                <li>Devis gratuit.</li>
+                <li>Showroom de 250 m2</li>
+                <li>Large choix de saunas des marques Jacuzzi® et KLAFS®</li>
+                <li>Conseils personnalisés</li>
+                <li>Livraison et installation à domicile</li>
+                <li>Devis gratuit</li>
+                <li>Paiement par chèque, carte bancaire ou espèce</li>
             </ul>
         </div>
 	</div>

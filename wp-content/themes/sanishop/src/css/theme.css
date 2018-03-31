@@ -6800,7 +6800,26 @@ section::after {
     width: 100%; }
 
 .nav-item-wrapper {
-  float: right; }
+  float: right;
+  list-style: none;
+  padding-left: 0; }
+  .nav-item-wrapper li {
+    display: inline-block;
+    position: relative; }
+
+.nav-sub-list {
+  padding-left: 0;
+  padding-top: 10px;
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  width: 250px;
+  transition: all ease-in-out .3s; }
+  .nav-sub-list li {
+    display: block; }
+  .nav-sub-list .nav-link {
+    text-align: left;
+    font-size: 10px !important; }
 
 @media only screen and (max-width: 1350px) {
   .nav-item-wrapper,

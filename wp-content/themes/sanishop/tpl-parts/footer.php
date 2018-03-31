@@ -16,29 +16,32 @@
 				</div>
 				<div class="col-md-3 mission">
 					<h3 class="footer-title">
-						informations
+						Valenciennes (Nord)
 					</h3>
 					<p class="paragraph">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur est in, iste nisi ratione suscipit velit voluptatum! Beatae blanditiis corporis cumque expedita maxime, modi praesentium sequi sunt vero. Consectetur?
+                        40 Rue du Quesnoy, 59300 Valenciennes
+                        03 27 46 11 88
+                        info@sanishop.fr
 					</p>
-				</div>
-				<div class="col-md-3 wrapper-footer">
-					<h3 class="footer-title">
-						plan du site
-					</h3>
-					<ul class="list-footer">
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-						<li class="list-footer--item"><a href="#">Item</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 wrapper-footer">
-					<h3 class="footer-title">
+                    <h3 class="footer-title">
                         <a href="<?php echo site_url(); ?>/sanishop/contact" style="color:#fff">Contactez-nous</a>
+                    </h3>
+				</div>
+				<div class="col-md-6 wrapper-footer">
+					<h3 class="footer-title">
+						Horaires
 					</h3>
+                    <p class="horaires-footer" style="display: inline-block; margin-right: 20px;color:#777">
+                        <b style="color: #fff">Lundi</b><br>09:30–12:00 / 14:00–18:30<br>
+                        <b style="color: #fff">Mardi</b><br>09:30–12:00 / 14:00–19:00<br>
+                        <b style="color: #fff">Mercredi</b><br>09:30–12:00 / 14:00–19:00<br>
+                        <b style="color: #fff">Jeudi</b><br>09:30–12:00 / 14:00–19:00<br>
+                    </p>
+                    <p class="horaires-footer" style="display: inline-block;color:#777; vertical-align:top">
+                        <b style="color: #fff">Vendredi</b><br>09:30–12:00 / 14:00–19:00<br>
+                        <b style="color: #fff">Samedi</b><br>09:30–12:00 / 14:00–18:30<br>
+                        <b style="color: #fff">Fermé</b><br>Fermé<br>
+                    </p>
 				</div>
 			</div>
 			<div class="row">

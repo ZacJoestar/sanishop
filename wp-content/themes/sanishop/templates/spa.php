@@ -12,7 +12,7 @@
 	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Spa Jacuzzi Valenciennes</h1>
 		<p class="fancy-paragraph">
-            Vente et installation de Spa Jacuzzi ® dans le Nord et la Belgique francophone, Visitez notre Showroom Spa Jacuzzi ® à Valenciennes. 46 ans d’expérience !
+            Vente et installation de Spa Jacuzzi® dans le Nord et la Belgique francophone, Visitez notre Showroom Spa Jacuzzi ® à Valenciennes. 46 ans d’expérience !
 		</p>
 	</div>
 </div>
@@ -22,11 +22,16 @@
 			<div class="wrapper-text-content">
 				<div class="wrapper-title">
 					<h3 class="sub-title">Valenciennes et Nord-Pas-de-Calais</h3>
-					<h2 class="title">Vente et installation de Spa Jacuzzi</h2>
+					<h2 class="title">Vente et installation de Spa Jacuzzi®</h2>
 				</div>
 				<p class="list">
-                    Vous recherchez un expert pour vous accompagner dans votre projet d’achat de Spa ? Faîtes appel à Sanishop, entreprise située à Valenciennes, spécialisée dans la vente et l’installation de Spa Jacuzzi® depuis 1972. Notre équipe composée de professionnels hautement qualifiés vous conseille sur le Spa qui correspond le mieux à vos attentes, à votre espace, et à votre budget.
-                    Nous nous déplaçons à votre domicile dans toute la région Hauts-de-France (anciennement Nord-Pas-de-Calais, Picardie) pour installer votre jacuzzi et vous guider dans son utilisation et son entretien.
+                    Vous recherchez un expert pour vous accompagner dans votre projet d’achat de Spa ? Faîtes
+                    appel à Sanishop, entreprise située à Valenciennes, spécialisée dans la vente et l’installation de
+                    Spa Jacuzzi® depuis 1972. Notre équipe composée de professionnels hautement qualifiés vous
+                    conseille sur le Spa qui correspond le mieux à vos attentes, à votre espace, et à votre budget.
+                    Nous nous déplaçons à votre domicile dans toute la région Hauts-de-France (anciennement Nord-
+                    Pas-de-Calais, Picardie) pour installer votre Spa Jacuzzi® et vous guider dans son utilisation et
+                    son entretien.
                 </p>
 			</div>
 		</div>
@@ -57,7 +62,7 @@
 		<div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
 			<div class="bg-paragraph-card-wrapper">
 				<h3 class="sub-title">Showroom Spa à Valenciennes</h3>
-				<h2 class="title-second">testez votre jacuzzi !</h2>
+				<h2 class="title-second">testez votre Spa Jacuzzi® !</h2>
 				<p class="paragraph">
                     Besoin d’une petite démonstration ? Rendez-vous à Valenciennes pour visiter notre Showroom Sanishop Wellness. Le centre de test réunis sur plus de 250 m2 une vaste sélection de Spas de qualité. Nos experts sont à votre disposition pour vous dévoiler toutes les subtilités de nos produits bien-être, et pour répondre à toutes vos questions.
                     Nous vous présentons une bonne partie des Spas de la gamme Jacuzzi® : Gamme J200 J300  J400  - Gamme Italian Design  -  Gamme professionnelle…
@@ -69,12 +74,15 @@
 				<h3 class="sub-title">Sanishop vous conseil</h3>
 				<h2 class="title-second">Pourquoi acheter un jacuzzi ?</h2>
                 <ul class="list list-white">
-                    <li>Le jacuzzi vous permet de plonger à volonté dans un océan de bien-être</li>
-                    <li>Le Spa ou jacuzzi vous fait profiter de manière privilégiée des bienfaits de l’hydrothérapie.</li>
-                    <li>Les jets d’eau du jacuzzi offrent un massage ciblé efficace pour soulager les tensions musculaires et les articulations douloureuses.</li>
-                    <li>Le Spa invite à la relaxation et facilite le sommeil en stimulant la production d’endorphine, l’hormone du bonheur.</li>
-                    <li>Le jacuzzi stimule la circulation sanguine et facilite l’élimination des toxines.</li>
-                    <li>Il est aussi parfait pour partager des moments d’intimité en couple, ou de convivialité en famille ou entre amis.</li>
+                    <li>Le Spa Jacuzzi® vous permet de plonger à volonté dans un océan de bien-être.</li>
+                    <li>Le Spa Jacuzzi® vous fait profiter de manière privilégiée des bienfaits de l’hydrothérapie.</li>
+                    <li>Les jets d’eau du Spa Jacuzzi® offrent un massage ciblé efficace pour soulager les tensions
+                        musculaires et les articulations douloureuses.</li>
+                    <li>Le Spa invite à la relaxation et facilite le sommeil en stimulant la production d’endorphine,
+                        l’hormone du bonheur.</li>
+                    <li>Le Spa Jacuzzi® stimule la circulation sanguine et facilite l’élimination des toxines.</li>
+                    <li>Il est aussi parfait pour partager des moments d’intimité en couple, ou de convivialité en famille
+                        ou entre amis.</li>
                 </ul>
 			</div>
 		</div>

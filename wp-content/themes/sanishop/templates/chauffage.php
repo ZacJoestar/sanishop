@@ -25,11 +25,17 @@
 					<h2 class="title">Sanishop, le chauffagiste de référence</h2>
 				</div>
 				<p class="paragraph">
-                    Sanishop est une entreprise experte en chauffage, solutions d’eau chaude, et systèmes d'énergies renouvelables, située à Valenciennes dans le Nord de la France.
-                    Notre objectif est d’améliorer votre confort tout en vous aidant à réaliser des économies d’énergies : un geste pour la planète, et pour votre porte-monnaie !
+                    Sanishop est une entreprise experte en chauffage, solutions d’eau chaude, et systèmes d'énergies
+                    renouvelables, située à Valenciennes dans le Nord de la France.
+                    Notre objectif est d’améliorer votre confort tout en vous aidant à réaliser des économies d’énergies
+                    : un geste pour la planète, et pour votre porte-monnaie !
+                    Nous travaillons en partenariat avec la marque Acova pour leurs radiateurs fiables et design.
+                    Concernant nos chaudières, elles proviennent de la marque Frisquet : fiables et résistantes!
                     De l’étude de vos besoins au suivi de votre installation, nous vous accompagnons de A à Z.
-                    Énergies classiques, chaudières à condensation, pompes à chaleur.. Nos experts vous éclairent sur les différentes solutions et vous conseillent pour répondre au mieux à vos attentes.
-                    Notre équipe de professionnels intervient à votre domicile, à Valenciennes ou dans un rayon de 40km aux alentours.
+                    Énergies classiques, chaudières à condensation, pompes à chaleur.. Nos experts vous éclairent
+                    sur les différentes solutions et vous conseillent pour répondre au mieux à vos attentes.
+                    Notre équipe de professionnels intervient à votre domicile, à Valenciennes ou dans un rayon de
+                    40km aux alentours.
                     <p class="paragraph" style="font-size: 16px">Vente • Installation • Dépannage • SAV • Contrat d’entretien</p>
 				</p>
 			</div>
@@ -53,12 +59,11 @@
                     <li>Nous avons le <b>Label Qualibat</b> qui valorise les entreprises du Bâtiment ayant fait preuve de leurs compétences et de leur savoir-faire.</li>
 				</ul>
 			</div>
-
 		</div>
 		<div class="col-md-4 black-paragraph-card">
 			<div class="bg-paragraph-card-wrapper">
-				<h3 class="sub-title">Sanishop vous conseil</h3>
-				<h2 class="title-second">Pourquoi acheter un hammam ?</h2>
+				<h3 class="sub-title">Nos services</h3>
+				<h2 class="title-second">Solutions d’eau chaude</h2>
 				<ul class="list list-white">
 					<li>Remplacement de chaudière</li>
 					<li>Entretien et réparation de toutes marques de chaudière</li>

@@ -25,9 +25,14 @@
 					<h2 class="title">Vente et installation de sauna</h2>
 				</div>
 				<p class="list">
-                    Vous rêvez d’acheter un sauna ? Faîtes appel à Sanishop : fabricant, vendeur et installateur de Spa et sauna depuis 1972 !
-                    Nous vous proposons une sélection de saunas de grandes marques au meilleur rapport qualité/prix. Contactez-nous ou venez rencontrer nos experts dans notre magasin Sanishop, situé en plein coeur de Valenciennes, à 30mn de Lille, dans les Hauts-de-France (anciennement Nord-Pas-de-Calais).
-                    Notre équipe se déplace chez vous pour vous conseiller (choix du sauna, utilisation, entretien…) et pour installer votre sauna rapidement et dans les règles de l’art.
+                    Vous rêvez d’acheter un sauna ? Faîtes appel à Sanishop : fabricant, vendeur et installateur de
+                    Spa et sauna depuis 1972 !
+                    Nous vous proposons une sélection de saunas de grandes marques au meilleur rapport qualité/
+                    prix. Contactez-nous ou venez rencontrer nos experts dans notre magasin Sanishop, situé en plein
+                    coeur de <b>Valenciennes</b>, à 30mn de <b>Lille</b>, dans les Hauts-de-France (anciennement Nord-Pas-de-
+                    Calais).
+                    Notre équipe se déplace chez vous pour vous conseiller (choix du sauna, utilisation, entretien...) et
+                    pour installer votre sauna rapidement et dans les règles de l’art.
 				</p>
 			</div>
 		</div>
@@ -73,8 +78,13 @@
                 <h3 class="sub-title">Dans notre showroom à Valenciennes</h3>
                 <h2 class="title-second">Testez votre sauna</h2>
                 <p class="paragraph paragraph--white">
-                    Poussez les portes de notre magasin de sauna, hammam et jacuzzi à Valenciennes, et pénétrez dans un showroom de 250 m2 entièrement dédié au bien-être : Sanishop Wellness.
-                    Sous vos yeux sont exposés les saunas des marques Jacuzzi® et KLAFTS®, leaders sur le marché du Spa d’intérieur et d’extérieur. Un expert se tient à votre disposition pour vous présenter l’ensemble des modèles de notre catalogue. Design épuré, essences de bois massif,  équipements de confort, technologies innovantes (musique via Bluetooth, éclairage led…), testez les dernières fonctionnalités et profitez de nos conseils pour faire le meilleur choix.
+                    Poussez les portes de notre magasin de sauna, hammam et Spa Jacuzzi® à Valenciennes, et
+                    pénétrez dans un showroom de 250 m2 entièrement dédié au bien-être : Sanishop Wellness.
+                    Sous vos yeux sont exposés les saunas des marques Jacuzzi® et KLAFS®, leaders sur le marché
+                    du Spa d’intérieur et d’extérieur. Un expert se tient à votre disposition pour vous présenter
+                    l’ensemble des modèles de notre catalogue. Design épuré, essences de bois massif,
+                    équipements de confort, technologies innovantes (musique via Bluetooth, éclairage led...), testez
+                    les dernières fonctionnalités et profitez de nos conseils pour faire le meilleur choix.
                 </p>
 			</div>
 		</div>

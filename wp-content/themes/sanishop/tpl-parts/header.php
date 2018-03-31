@@ -15,37 +15,42 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body <?php body_class(); ?>>
-<nav class="nav">
-	<div class="main-header-wrapper <?php echo is_page('Contact') ? 'black-header' : ''?>">
+<nav class="nav <?php echo is_page('Contact') ? 'black-header' : ''?>">
+	<div class="main-header-wrapper">
         <div class="main-logo">
-            <a href="<?php echo site_url(); ?>/" alt="Sanishop" title="Sanishop"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt=""></a>
+            <a href="<?php echo site_url(); ?>/" alt="Sanishop" title="Sanishop">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/<?php echo is_page('Contact') ? 'logo-transparent.png' : 'black-logo.png' ?>" alt="">
+            </a>
         </div>
-        <div class="nav-item-wrapper">
-            <a class="nav-link active" href="<?php echo site_url(); ?>/">
+        <ul class="nav-item-wrapper">
+            <li>
+                <a class="nav-link active" href="<?php echo site_url(); ?>/">
                 Accueil
-            </a>
-            <a class="nav-link" href="<?php echo site_url(); ?>/salle-de-bain">
-                Salle de bain
-            </a>
-            <a class="nav-link" href="<?php echo site_url(); ?>/espace-wellness">
-                Espace wellness
-            </a>
-            <a class="nav-link disabled" href="<?php echo site_url(); ?>/spa">
-                Spa
-            </a>
-            <a class="nav-link disabled" href="<?php echo site_url(); ?>/sauna">
-                Sauna
-            </a>
-            <a class="nav-link disabled" href="<?php echo site_url(); ?>/hammam">
-                Hammam
-            </a>
-            <a class="nav-link disabled" href="<?php echo site_url(); ?>/chauffage">
-                CHAUFFAGE ET SOLUTIONS EAU CHAUDE
-            </a>
-            <a class="nav-link disabled" href="<?php echo site_url(); ?>/contact">
+                </a>
+            </li>
+            <li class="trigger-sub-list">
+                <a class="nav-link" href="#">Salle de bain</a>
+                <ul class="nav-sub-list">
+                    <li><a href="<?php echo site_url(); ?>/salle-de-bain"" class="nav-link">Création salle de bain</a></li>
+                    <li><a class="nav-link disabled" href="<?php echo site_url(); ?>/chauffage">
+                            CHAUFFAGE ET SOLUTIONS EAU CHAUDE
+                        </a></li>
+                </ul>
+            </li>
+            <li class="trigger-sub-list">
+                <a class="nav-link" href="<?php echo site_url(); ?>/espace-wellness">Espace wellness</a>
+                <ul class="nav-sub-list">
+                    <li><a href="<?php echo site_url(); ?>/spa" class="nav-link">Spa Jacuzzi®</a></li>
+                    <li><a class="nav-link disabled" href="<?php echo site_url(); ?>/Hammam">Hammam</a></li>
+                    <li><a class="nav-link disabled" href="<?php echo site_url(); ?>/sauna">Sauna</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="nav-link disabled" href="<?php echo site_url(); ?>/contact">
                 contact
-            </a>
-        </div>
+                </a>
+            </li>
+        </ul>
 	</div>
 </nav>
 <div class="btn-menu-trigger">

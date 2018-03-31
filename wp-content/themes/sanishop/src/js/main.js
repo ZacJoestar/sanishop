@@ -53,4 +53,9 @@ $(document).ready(function(){
         }
     });
 
+    // SUBLIST //
+    $('.trigger-sub-list').hover(function() {
+       $(this).find('.nav-sub-list').fadeToggle('fast');
+    });
+
 });

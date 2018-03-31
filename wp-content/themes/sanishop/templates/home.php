@@ -7,7 +7,7 @@
                 <div class="col-md-12 big-image" style="background: url('http://www.culturespas.fr/wp-content/uploads/2016/05/city_spa_free_acqua.jpg') no-repeat center center; background-size:cover">
                     <div class="big-image-overlay">
                         <div class="big-image-text-wrapper">
-                            <h1 class="title">Spa · Jacuzzi · Salle de bain
+                            <h1 class="title">Salle de bain / Spa Jacuzzi®
                             <div class="title-separator-white hidden-xs"></div>
                                 <span style="font-size: 22px;letter-spacing: 5px">Valenciennes</span></h1>
                         </div>
@@ -25,9 +25,13 @@
                                 <h2 class="title">Expert du Spa et de la salle de bain</h2>
                             </div>
                             <p class="paragraph">
-                                Implanté à <b>Valenciennes</b>, à 30 mn de <b>Lille</b>, Sanishop est le spécialiste du Spa, de la <b>salle de bain</b>, et du <b>chauffage</b> dans la région Hauts-de-France (anciennement <b>Nord-Pas-de-Calais</b>).
-
-                                Depuis 1972, notre entreprise a développé un savoir-faire inégalable dans la vente et l’installation d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’1 architecte d’intérieur de renom, de plusieurs monteurs/poseurs/carreleurs, et d’un 1 technicien dépannage, se tient à votre disposition pour vous accompagner dans la réussite de votre projet.
+                                Implanté dans le centre de <b>Valenciennes</b>, à 30 mn de <b>Lille</b>, Sanishop est le spécialiste de la <b>salle
+                                    de bain</b> et du <b>Spa</b> dans le Nord, les Ardennes, l’Aisne, la Somme, le Pas-de-Calais, l’Oise et la
+                                Belgique francophone.
+                                Depuis 1972, notre entreprise a développé un savoir-faire inégalable dans la vente et l’installation
+                                d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’1
+                                architecte d’intérieur de renom, de plusieurs monteurs/poseurs/carreleurs, et d’un technicien
+                                dépannage, se tient à votre disposition pour vous accompagner dans la réussite de votre projet.
                             </p>
                         </div>
                     </div>
@@ -89,13 +93,13 @@
                     <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-1.jpg') no-repeat center center; background-size:cover">
                         <div class="bg-paragraph-card-wrapper">
                             <h3 class="sub-title">Vente et installation</h3>
-                            <h3 class="title-second">Spa, jacuzzi, sauna, hammam</h3>
+                            <h3 class="title-second">Spa, sauna, hammam</h3>
                             <ul class="list">
                                 <li>
-                                    Sanishop Wellness : showroom de 250 m2 à Valenciennes avec centre de test Spa, jacuzzi, sauna, hammam.
+                                    Sanishop Wellness : showroom de 250 m2 à Valenciennes avec centre de test Spa, sauna, hammam.
                                 </li>
                                 <li>
-                                    Marques Jacuzzi® et KLAFTS® (leaders mondiaux sur le marché du Spa)
+                                    Marques Jacuzzi® et KLAFS® (leaders mondiaux sur le marché du Spa)
                                 </li>
                                 <li>
                                     Livraison et installation de Spa, sauna ou hammam à domicile
@@ -140,13 +144,13 @@
                         <h2 class="title fancy-title fancy-title--bg-gray">pourquoi Sanishop ?</h2>
                         <div class="fancy-paragraph">
                             <ul class="list list-white">
-                                <li>46 ans de savoir-faire et d’expérience dans les secteurs Spa, salle de bain, chauffage</li>
+                                <li>46 ans de savoir-faire et d’expérience dans le secteur de la salle de bain</li>
                                 <li>Revendeur exclusive de la marque Jacuzzi® dans la région Hauts-de-France</li>
                                 <li>Lauréat du 1er prix dans la catégorie « Pro de la Salle de Bain » au salon mondial Bâtimat 2017 !</li>
                                 <li>Professionnel certifié en système de chauffage et énergies renouvelables (PG, RGE, Qualibat)</li>
                                 <li>Une équipe d’experts à l’écoute et disponible</li>
                                 <li>Devis gratuit</li>
-                                <li>Paiement par chèque, carte bancaire ou espèce</li>
+                                <li>Paiement par chèque, carte bancaire ou espèces</li>
                             </ul>
                         </div>
                         <div class="main-btn main-btn--fancy-gray">

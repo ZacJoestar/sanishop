@@ -18,11 +18,14 @@
                     <h2 class="title">Salle de Bain Valenciennes</h2>
                 </div>
                 <p class="paragraph">
-                    Vous aimeriez transformer votre salle de bain en véritable oasis de bien-être ? Sanishop, entreprise située à Valenciennes, vous accompagne dans la conception et l’installation de la salle de bain de vos rêves !
-
-                    Salle de bain luxueuse intégrée à la suite parentale, salle de bain pour personnes à mobilité réduites, salle de bain modulable pour optimiser l’espace… Nous créons des salles de bain sur mesure, entièrement personnalisées et équipées afin de vous apporter un maximum de confort.
-
-                    Nous nous déplaçons à votre domicile, à Valenciennes ou dans un rayon de 40 km aux alentours pour vous proposer une prestation de services et des produits de qualité haut de gamme.
+                    Vous aimeriez transformer votre salle de bain en véritable oasis de bien-être ? Sanishop,
+                    entreprise située à <b>Valenciennes</b>, vous accompagne dans la conception et l’installation de la salle
+                    de bain de vos rêves !
+                    Salle de bain luxueuse intégrée à la suite parentale, salle de bain pour personnes à mobilité
+                    réduites, salle de bain modulable pour optimiser l’espace... Nous créons des salles de bain sur
+                    mesure, entièrement personnalisées et équipées afin de vous apporter un maximum de confort.
+                    Nous nous déplaçons à votre domicile, à Valenciennes ou dans un rayon de 40 km aux alentours
+                    pour vous proposer une prestation de services et des produits de qualité haut de gamme.
                 </p>
             </div>
         </div>
@@ -138,6 +141,8 @@
                 <ul class="list">
                     <li>Vente de salle de bain haut de gamme</li>
                     <li>Réalisation de salle de bain sur mesure</li>
+                    <li>Réalisation de suite parentale</li>
+                    <li>Réalisation de douche</li>
                     <li>Décoration de salle de bain</li>
                     <li>Installation de salle de bain</li>
                 </ul>
@@ -149,7 +154,7 @@
                 <h3 class="title-second">nos produits</h3>
                 <ul class="list list-white">
                     <li>Douches, baignoires, baignoires balnéo</li>
-                    <li>Spa Jacuzzi, hammam, sauna</li>
+                    <li>Spa Jacuzzi®, hammam, sauna</li>
                     <li>Lavabos et vasques</li>
                     <li>WC et bidets</li>
                     <li>Robinetterie</li>
@@ -171,7 +176,10 @@
         </div>
         <div class="col-md-12 text-center">
             <p>
-                Afin de répondre au mieux à vos besoins, Sanishop a sélectionné des marques partenaires reconnues pour leur savoir-faire et la qualité de leurs produits. Baignoire en îlot hyper tendance, douche à l’italienne, grande vasque zen, accessoires design… Réalisez votre salle de bain selon vos goûts et vos envies grâce à notre large choix de mobilier et accessoires !
+                Afin de répondre au mieux à vos besoins, Sanishop a sélectionné des marques partenaires
+                reconnues pour leur savoir-faire et la qualité de leurs produits. Baignoire en îlot hyper tendance,
+                douche à l’italienne, grande vasque zen, accessoires design... Réalisez votre salle de bain selon
+                vos goûts et vos envies grâce à notre large choix de mobilier et accessoires !
             </p>
         </div>
     </div>
@@ -179,7 +187,7 @@
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Meubles</h3>
             <ul class="list-simple">
-                <li><a href="https://www.ambiancebain.com/fr/" target="_blank" class="list-simple-link">Ambiance Bain</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Ambiance Bain</a></li>
                 <li><a href="http://www.kerrock.fr/" target="_blank" class="list-simple-link">Kerrock</a></li>
                 <li><a href="http://www.decotec-paris.fr/" target="_blank" class="list-simple-link">Decotec</a></li>
             </ul>
@@ -189,7 +197,7 @@
             <ul class="list-simple">
                 <li><a href="https://www.jacobdelafon.fr/fr" target="_blank" class="list-simple-link">Jacob Delafon </a></li>
                 <li><a href="https://www.bette.de/de" target="_blank" class="list-simple-link">Bette</a></li>
-                <li><a href="https://www.jacuzzi.fr/" target="_blank" class="list-simple-link">Jacuzzi</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Jacuzzi</a></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
@@ -205,6 +213,7 @@
             <h3 class="list-title">Robinetterie</h3>
             <ul class="list-simple">
                 <li><a href="http://www.hansgrohe.fr/" target="_blank" class="list-simple-link">Hansgrohé - Axor</a></li>
+                <li><a href="https://www.jacobdelafon.fr/fr" target="_blank" class="list-simple-link">Jacob Delafon</a></li>
             </ul>
         </div>
     </div>
