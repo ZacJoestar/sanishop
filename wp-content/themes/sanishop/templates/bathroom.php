@@ -187,33 +187,33 @@
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Meubles</h3>
             <ul class="list-simple">
-                <li><a href="#" target="_blank" class="list-simple-link">Ambiance Bain</a></li>
-                <li><a href="http://www.kerrock.fr/" target="_blank" class="list-simple-link">Kerrock</a></li>
-                <li><a href="http://www.decotec-paris.fr/" target="_blank" class="list-simple-link">Decotec</a></li>
+                <li><a href="https://www.ambiancebain.com/fr/" target="_blank" class="list-simple-link">Ambiance Bain</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Kerrock</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Decotec</a></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Baignoires / Balneo</h3>
             <ul class="list-simple">
-                <li><a href="https://www.jacobdelafon.fr/fr" target="_blank" class="list-simple-link">Jacob Delafon </a></li>
-                <li><a href="https://www.bette.de/de" target="_blank" class="list-simple-link">Bette</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Jacuzzi</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Jacob Delafon </a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Bette</a></li>
+                <li><a href="https://www.jacuzzi.fr/" target="_blank" class="list-simple-link">Jacuzzi</a></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Accessoires</h3>
             <ul class="list-simple">
-                <li><a href="http://www.celsodelemos.com/abysshabidecor/" target="_blank" class="list-simple-link">Abyss Habidécor</a></li>
-                <li><a href="http://www.inda.net/fr/produits/accessoires" target="_blank" class="list-simple-link">Inda</a></li>
-                <li><a href="http://www.zack.info/fr/design.html" target="_blank" class="list-simple-link">Zack</a></li>
-                <li><a href="http://www.pomdor.com/" target="_blank" class="list-simple-link">Pom d'or</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Abyss Habidécor</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Inda</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Zack</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Pom d'or</a></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Robinetterie</h3>
             <ul class="list-simple">
-                <li><a href="http://www.hansgrohe.fr/" target="_blank" class="list-simple-link">Hansgrohé - Axor</a></li>
-                <li><a href="https://www.jacobdelafon.fr/fr" target="_blank" class="list-simple-link">Jacob Delafon</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Hansgrohé - Axor</a></li>
+                <li><a href="#" target="_blank" class="list-simple-link">Jacob Delafon</a></li>
             </ul>
         </div>
     </div>

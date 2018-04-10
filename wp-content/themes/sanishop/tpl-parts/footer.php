@@ -21,7 +21,7 @@
 					<p class="paragraph">
                         40 Rue du Quesnoy, 59300 Valenciennes
                         03 27 46 11 88
-                        info@sanishop.fr
+                        <a href="mailto:contact@sanishop.fr">contact@sanishop.fr</a>
 					</p>
                     <h3 class="footer-title">
                         <a href="<?php echo site_url(); ?>/sanishop/contact" style="color:#fff">Contactez-nous</a>

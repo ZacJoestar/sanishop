@@ -8,11 +8,11 @@
  */
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
-<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
+<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-0.jpg') center center no-repeat; background-size: cover;">
 	<div class="title-hero">
-		<h1 class="title fancy-title fancy-title--bg-gray">Chauffagiste Valenciennes</h1>
+		<h1 class="title fancy-title fancy-title--bg-gray">Confort & chaleur dans votre salle de bain</h1>
 		<p class="fancy-paragraph">
-            Sanishop chauffagiste à Valenciennes, expert en vente, installation et dépannage de chauffage et de systèmes d'énergies renouvelables. Chauffagiste agréé.
+            Dans le cadre de nos installations sur mesure à domicile, nous installons et dépannons votre système de chauffage en tant que chauffagiste agrée.
         </p>
 	</div>
 </div>
@@ -42,7 +42,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="push-img">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-1.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -94,27 +94,27 @@
 		<div class="vertical-gallery-wrapper">
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					confort
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-2.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-2.jpg" class="vertical-gallery-visuel" alt="chauffage & solution eau chaude">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					chaleur
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-3.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-3.jpg" class="vertical-gallery-visuel" alt="chauffage & solution eau chaude">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					détente
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-4.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-4.jpg" class="vertical-gallery-visuel" alt="chauffage & solution eau chaude">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					fiabilité
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-5.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/chauffage-solutions-eau-chaude-5.jpg" class="vertical-gallery-visuel" alt="chauffage & solution eau chaude">
 			</div>
 		</div>
 	</div>

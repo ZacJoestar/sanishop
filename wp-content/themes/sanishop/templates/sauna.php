@@ -8,7 +8,7 @@
  */
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
-<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
+<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-0.jpg') center center no-repeat; background-size: cover;">
 	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Sauna Valenciennes</h1>
 		<p class="fancy-paragraph">
@@ -38,7 +38,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="push-img">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-1.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -56,6 +56,9 @@
 					Amiens, Beauvais, Charleville-Mézières, Bruxelles…</p>
 			</div>
 		</div>
+        <div class="col-xs-12 mt-5">
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/SNDkyqhItCU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
 	</div>
 </div>
 <div class="container-fluid bg-paragraph-card-global-wrapper">
@@ -107,27 +110,27 @@
 		<div class="vertical-gallery-wrapper">
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					détente
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-2.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-2.jpg" class="vertical-gallery-visuel" alt="">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					combattre le stress
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-3.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-3.jpg" class="vertical-gallery-visuel" alt="">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					après l'effort
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-4.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-4.jpg" class="vertical-gallery-visuel" alt="">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					Relax
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-5.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-5.jpg" class="vertical-gallery-visuel" alt="">
 			</div>
 		</div>
 	</div>

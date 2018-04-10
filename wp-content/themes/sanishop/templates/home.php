@@ -4,7 +4,7 @@
 <?php get_template_part('tpl-parts/header'); ?>
         <div class="container-fluid header-page">
             <div class="row">
-                <div class="col-md-12 big-image" style="background: url('http://www.culturespas.fr/wp-content/uploads/2016/05/city_spa_free_acqua.jpg') no-repeat center center; background-size:cover">
+                <div class="col-md-12 big-image" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-1.jpg') no-repeat center center; background-size:cover">
                     <div class="big-image-overlay">
                         <div class="big-image-text-wrapper">
                             <h1 class="title">Salle de bain / Spa Jacuzzi®
@@ -22,15 +22,15 @@
                         <div class="wrapper-text-content">
                             <div class="wrapper-title">
                                 <h2 class="sub-title">Depuis 1972</h2>
-                                <h2 class="title">Expert du Spa et de la salle de bain</h2>
+                                <h2 class="title">Expert de la salle de bain et du Spa</h2>
                             </div>
                             <p class="paragraph">
                                 Implanté dans le centre de <b>Valenciennes</b>, à 30 mn de <b>Lille</b>, Sanishop est le spécialiste de la <b>salle
                                     de bain</b> et du <b>Spa</b> dans le Nord, les Ardennes, l’Aisne, la Somme, le Pas-de-Calais, l’Oise et la
                                 Belgique francophone.
                                 Depuis 1972, notre entreprise a développé un savoir-faire inégalable dans la vente et l’installation
-                                d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’1
-                                architecte d’intérieur de renom, de plusieurs monteurs/poseurs/carreleurs, et d’un technicien
+                                d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’
+                                architecte d’intérieur, de plusieurs monteurs/poseurs/carreleurs, et d’un technicien
                                 dépannage, se tient à votre disposition pour vous accompagner dans la réussite de votre projet.
                             </p>
                         </div>
@@ -38,41 +38,41 @@
                     <div class="col-sm-12 col-md-8 wrapper-visuels">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 img-visuel-card">
-                                <img src="https://www.consobrico.com/wp-content/uploads/2016/09/plan-salle-de-bain-classique-douche-baignoire_omgdesign.fr_.jpg" class="img-visuel-card--visuel" alt="">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-2.jpg" class="img-visuel-card--visuel" alt="">
                                 <div class="overlay">
                                     <div class="img-visuel-card--title-wrapper v-align-center">
                                         <div class="img-visuel-card--title">
-                                            <span>Lorem ipsum dolor</span>
+                                            <span>Votre salle de bain sur mesure</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 img-visuel-card">
-                                <img src="http://cache.marieclaire.fr/data/photo/w1500_c17/maison/4u/jacuzzi-exterieur-minipool-de-kos-by-zucchetti4.jpg" class="img-visuel-card--visuel" alt="">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-3.jpg" class="img-visuel-card--visuel" alt="">
                                 <div class="overlay">
                                     <div class="img-visuel-card--title-wrapper v-align-center">
                                         <div class="img-visuel-card--title">
-                                            <span>Lorem ipsum dolor</span>
+                                            <span>SPA JACUZZI®</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 img-visuel-card">
-                                <img src="http://www.salledebainsdesign.fr/wp-content/uploads/2013/07/07_Fiction.jpg" class="img-visuel-card--visuel" alt="">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-4.jpg" class="img-visuel-card--visuel" alt="">
                                 <div class="overlay">
                                     <div class="img-visuel-card--title-wrapper v-align-center">
                                         <div class="img-visuel-card--title">
-                                            <span>Lorem ipsum dolor</span>
+                                            <span>Sauna</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 img-visuel-card">
-                                <img src="https://www.consobrico.com/wp-content/uploads/2016/09/salle-de-bain-minimaliste1.jpeg" class="img-visuel-card--visuel" alt="">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-5.jpg" class="img-visuel-card--visuel" alt="">
                                 <div class="overlay">
                                     <div class="img-visuel-card--title-wrapper v-align-center">
                                         <div class="img-visuel-card--title">
-                                            <span>Lorem ipsum dolor</span>
+                                            <span>Hammam</span>
                                         </div>
                                     </div>
                                 </div>
@@ -93,8 +93,20 @@
                     <div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-1.jpg') no-repeat center center; background-size:cover">
                         <div class="bg-paragraph-card-wrapper">
                             <h3 class="sub-title">Vente et installation</h3>
-                            <h3 class="title-second">Spa, sauna, hammam</h3>
+                            <h3 class="title-second">salle de bain sur mesure</h3>
                             <ul class="list">
+                                <li>Expert en salle de bain de prestige (équipements et matériaux nobles)</li>
+                                <li>Création d’une étude 3D pour imaginer votre future salle de bain</li>
+                                <li>Exposition dans notre showroom salle de bain à Valenciennes</li>
+                                <li>Meubles, baignoires, balnéo, accessoires, robinetterie de grandes marques réputées pour leur qualité (Ambiance Bain, Decotec, Jacob Delafon,  Pom d’or…)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 black-paragraph-card">
+                        <div class="bg-paragraph-card-wrapper">
+                            <h3 class="sub-title">Vente et installation</h3>
+                            <h3 class="title-second">Spa, sauna, hammam</h3>
+                            <ul class="list list-white">
                                 <li>
                                     Sanishop Wellness : showroom de 250 m2 à Valenciennes avec centre de test Spa, sauna, hammam.
                                 </li>
@@ -107,18 +119,6 @@
                                 <li>
                                     Conseils personnalisés
                                 </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 black-paragraph-card">
-                        <div class="bg-paragraph-card-wrapper">
-                            <h3 class="sub-title">Vente et installation</h3>
-                            <h3 class="title-second">salle de bain sur mesure</h3>
-                            <ul class="list list-white">
-                                <li>Expert en salle de bain de prestige (équipements et matériaux nobles)</li>
-                                <li>Création d’une étude 3D pour imaginer votre future salle de bain</li>
-                                <li>Exposition dans notre showroom salle de bain à Valenciennes</li>
-                                <li>Meubles, baignoires, balnéo, accessoires, robinetterie de grandes marques réputées pour leur qualité (Ambiance Bain, Decotec, Jacob Delafon,  Pom d’or…)</li>
                             </ul>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                         <div class="fancy-paragraph">
                             <ul class="list list-white">
                                 <li>46 ans de savoir-faire et d’expérience dans le secteur de la salle de bain</li>
-                                <li>Revendeur exclusive de la marque Jacuzzi® dans la région Hauts-de-France</li>
+                                <li>Revendeur exclusif de la marque Jacuzzi® dans la région Hauts-de-France</li>
                                 <li>Lauréat du 1er prix dans la catégorie « Pro de la Salle de Bain » au salon mondial Bâtimat 2017 !</li>
                                 <li>Professionnel certifié en système de chauffage et énergies renouvelables (PG, RGE, Qualibat)</li>
                                 <li>Une équipe d’experts à l’écoute et disponible</li>
@@ -154,12 +154,12 @@
                             </ul>
                         </div>
                         <div class="main-btn main-btn--fancy-gray">
-                            <a href="<?php echo site_url(); ?>/contact">DEMANDEZ VOTRE DEVIS</a>
+                            <a href="<?php echo site_url(); ?>/contact">Contactez-nous</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="push-img">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/salle-de-bain-spa-jacuzzi-6.jpg" alt="Salle de bain spa jacuzzi">
                         </div>
                     </div>
                 </div>
@@ -167,28 +167,28 @@
                     <div class="col-md-12">
                         <div class="gallery-container">
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-1.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-1.jpg" alt="Salle de bain spa jacuzziSalle de bain spa jacuzziSalle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-2.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-2.jpg" alt="Salle de bain spa jacuzziSalle de bain spa jacuzziSalle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-3.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-3.jpg" alt="Salle de bain spa jacuzziSalle de bain spa jacuzziSalle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-4.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-4.jpg" alt="Salle de bain spa jacuzziSalle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-5.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-5.jpg" alt="Salle de bain spa jacuzziSalle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-6.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-6.jpg" alt="Salle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-7.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-7.jpg" alt="Salle de bain spa jacuzzi">
                             </div>
                             <div class="item-gallery-wrapper">
-                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-8.jpg" alt="">
+                                <img class="item-gallery-visuel" src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/gallery/gallery-8.jpg" alt="Salle de bain spa jacuzzi">
                             </div>
                         </div>
                     </div>
@@ -227,22 +227,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row zones-wrapper">
-                    <div class="zones-inner">
-                        <div class="col-md-6 col-sm-12 zone-illustration" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/serviettes.jpg') no-repeat center center; background-size:cover">
-
-                        </div>
-                        <div class="col-sm-12 col-md-6 zone-container">
-                            <h3 class="zone-title">Chauffage et salle de bain</h3>
-                            <div class="clearfix">
-                                <hr class="zone-separator"/>
-                            </div>
-                            <p class="zone-text">
-                                Déplacement dans un rayon de 30 à 40 km autour de Valenciennes (Valenciennes, Lille, Lens, Cambrai, Douai…).
-                            </p>
                         </div>
                     </div>
                 </div>

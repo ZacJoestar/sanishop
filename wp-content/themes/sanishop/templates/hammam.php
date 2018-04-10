@@ -8,7 +8,7 @@
  */
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
-<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
+<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-0.jpg') center center no-repeat; background-size: cover;">
 	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Hammam Valenciennes</h1>
 		<p class="fancy-paragraph">
@@ -40,7 +40,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="push-img">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-1.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -109,27 +109,27 @@
 		<div class="vertical-gallery-wrapper">
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					Bulle de détente
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-2.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-2.jpg" class="vertical-gallery-visuel" alt="Hammam valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					Detox
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-3.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-3.jpg" class="vertical-gallery-visuel" alt="Hammam valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					Bien-être
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-4.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-4.jpg" class="vertical-gallery-visuel" alt="Hammam valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					relax
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-5.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-5.jpg" class="vertical-gallery-visuel" alt="Hammam valenciennes">
 			</div>
 		</div>
 	</div>
