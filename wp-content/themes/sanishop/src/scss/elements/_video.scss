@@ -1,5 +1,7 @@
 .video-embed{
   position: relative;
+  height: 316px;
+  overflow: hidden;
   iframe{
     position: relative;
     z-index: 1;
@@ -17,6 +19,15 @@
   height: 100%;
   width: 100%;
   z-index: 2;
+  &--sauna {
+    height: 58vh;
+  }
+}
+
+.sauna {
+  iframe {
+    height: 58vh;
+  }
 }
 
 .overlay-video{

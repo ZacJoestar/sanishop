@@ -29,8 +29,7 @@
                                     de bain</b> et du <b>Spa</b> dans le Nord, les Ardennes, l’Aisne, la Somme, le Pas-de-Calais, l’Oise et la
                                 Belgique francophone.
                                 Depuis 1972, notre entreprise a développé un savoir-faire inégalable dans la vente et l’installation
-                                d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’
-                                architecte d’intérieur, de plusieurs monteurs/poseurs/carreleurs, et d’un technicien
+                                d’équipements de bien-être et de confort. Notre équipe, composée de 2 conseillers qualifiés, d’un architecte d’intérieur, de plusieurs monteurs/poseurs/carreleurs, et d’un technicien
                                 dépannage, se tient à votre disposition pour vous accompagner dans la réussite de votre projet.
                             </p>
                         </div>
@@ -218,9 +217,9 @@
                                 <li>Belgique francophone</li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-sm-12" style="padding: 0;">
+                        <div class="col-md-6 col-sm-12">
                             <div class="video-embed">
-                                <iframe id="video" frameborder="0" width="100%" src="//www.dailymotion.com/embed/video/x13x0y8" allowfullscreen allow="autoplay"></iframe>
+                                <iframe id="video" frameborder="0" width="100%" height="316" src="https://www.youtube.com/embed/V9vUvy0k9WM" allowfullscreen allow="autoplay"></iframe>
                                 <div class="video-cover" style="background: url('http://architectureideas.info/wp-content/uploads/2009/01/Bathroom.jpg') no-repeat center center; background-size:cover">
                                     <div class="overlay-video">
                                         <div id="play-video" class="video-btn-play"></div>

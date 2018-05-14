@@ -30,9 +30,9 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="push-img">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
-            </div>
+            <video width="100%" controls>
+                <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb1.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </div>
@@ -42,13 +42,6 @@
             <h3 class="sub-title text-center">Le professionnel de référence</h3>
             <h2 class="title text-center">Créez votre salle de bain sur mesure avec Sanishop !</h2>
         </div>
-        <!--<div class="col-md-12 text-img-bg-wrapper">
-            <div class="text-img-bg" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-1.jpg') center center no-repeat; background-size: cover;">
-                <p class="highlight-white">
-                    Depuis 1972, notre entreprise, maître du bain, réalise vos salles de bains. Notre savoir-faire dans l'installation des équipements de salle de bains nous permet d'intervenir dans votre maison pour la rénovation de votre salle de bains. Nos professionnels se déplacent à votre domicile pour conceptualiser avec vous vos envies et vos plans de salle d'eau ou de chambre parentale avec dressing et cabinet de toilettes. Une étude 3D est ensuite réalisée par notre architecte d'intérieur pour représenter au plus près de la réalité ce que sera votre future salle de bains et les travaux qui vont devoir y être fait. Après validation de votre part, nos professionnels interviennent chez vous pour installer votre salle de bains moderne et design. Notre équipe intervient sur tous les travaux relatifs à l'installation des équipements de salle de bains, vous n'avez pas besoin de faire intervenir un autre artisan pour les ouvrages d'électricité, de chauffage, etc. Nous nous chargeons de toute votre salle de bains, un gage de tranquillité pour vous ! Nous réalisons des salles de bains sur mesure pour tous les particuliers, y compris pour les personnes à mobilité réduite.
-                </p>
-            </div>
-        </div>-->
     </div>
     <div class="row inner-wrapper icons-wrapper pb-5">
         <div class="col-md-6 col-lg-3 text-center icon-content">
@@ -90,7 +83,7 @@
                 </object>
             </div>
             <p>
-                Vous obtenez un <b>devis gratuit et détaillé</b> sur demande. Contactez-nous et nous vous répondons dans les plus brefs délais.
+                <b>Contactez-nous</b> afin que nous étudions ensemble votre projet.
             </p>
         </div>
     </div>
@@ -100,25 +93,25 @@
         <div class="vertical-gallery-wrapper">
             <div class="vertical-gallery-item">
                 <div class="vertical-gallery-overlay">
-                    <i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+                    Design
                 </div>
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-2.jpg" class="vertical-gallery-visuel" alt="">
             </div>
             <div class="vertical-gallery-item">
                 <div class="vertical-gallery-overlay">
-                    <i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+                    haut de gamme
                 </div>
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-3.jpg" class="vertical-gallery-visuel" alt="">
             </div>
             <div class="vertical-gallery-item">
                 <div class="vertical-gallery-overlay">
-                    <i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+                    sur mesure
                 </div>
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-4.jpg" class="vertical-gallery-visuel" alt="">
             </div>
             <div class="vertical-gallery-item">
                 <div class="vertical-gallery-overlay">
-                    <i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+                    style
                 </div>
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-5.jpg" class="vertical-gallery-visuel" alt="">
             </div>
@@ -188,32 +181,32 @@
             <h3 class="list-title">Meubles</h3>
             <ul class="list-simple">
                 <li><a href="https://www.ambiancebain.com/fr/" target="_blank" class="list-simple-link">Ambiance Bain</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Kerrock</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Decotec</a></li>
+                <li><span class="list-simple-link">Kerrock</span></li>
+                <li><span class="list-simple-link">Decotec</span></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Baignoires / Balneo</h3>
             <ul class="list-simple">
-                <li><a href="#" target="_blank" class="list-simple-link">Jacob Delafon </a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Bette</a></li>
-                <li><a href="https://www.jacuzzi.fr/" target="_blank" class="list-simple-link">Jacuzzi</a></li>
+                <li><span class="list-simple-link">Jacob Delafon </span></li>
+                <li><span class="list-simple-link">Bette</span></li>
+                <li><span class="list-simple-link">Jacuzzi</span></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Accessoires</h3>
             <ul class="list-simple">
-                <li><a href="#" target="_blank" class="list-simple-link">Abyss Habidécor</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Inda</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Zack</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Pom d'or</a></li>
+                <li><span class="list-simple-link">Abyss Habidécor</span></li>
+                <li><span class="list-simple-link">Inda</span></li>
+                <li><span class="list-simple-link">Zack</span></li>
+                <li><span class="list-simple-link">Pom d'or</span></li>
             </ul>
         </div>
         <div class="col-md-6 col-lg-3 text-center">
             <h3 class="list-title">Robinetterie</h3>
             <ul class="list-simple">
-                <li><a href="#" target="_blank" class="list-simple-link">Hansgrohé - Axor</a></li>
-                <li><a href="#" target="_blank" class="list-simple-link">Jacob Delafon</a></li>
+                <li><span class="list-simple-link">Hansgrohé - Axor</span></li>
+                <li><span class="list-simple-link">Jacob Delafon</span></li>
             </ul>
         </div>
     </div>

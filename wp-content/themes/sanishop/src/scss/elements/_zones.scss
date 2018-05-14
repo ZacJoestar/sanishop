@@ -3,20 +3,20 @@
 }
 
 .zones-wrapper {
-  @include bp(sm) {
+  /*@include bp(sm) {
     display: table;
-  }
+  }*/
 }
 
 .zones-inner {
-  @include bp(sm) {
+  /*@include bp(sm) {
     display: table-row;
     div[class*='col-md-6'] {
       display: table-cell;
       float: none;
       width: 50%;
     }
-  }
+  }*/
 }
 
 .zone-container {

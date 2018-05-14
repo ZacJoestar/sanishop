@@ -2,17 +2,6 @@ $(document).ready(function(){
 
     //VIDEO //
 
-    var aspect_ratio = 0.8;
-
-    var $box = jQuery(".video-embed");
-
-    jQuery(document).ready(function($) {
-        $box.height( $box.width() * aspect_ratio );
-    });
-
-    jQuery(window).resize(function() {
-        $box.height( $box.width() * aspect_ratio );
-    });
 
 
     $('#play-video').on('click', function(ev) {

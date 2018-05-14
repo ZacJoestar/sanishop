@@ -4,13 +4,10 @@
 			<div class="row mb-5">
 				<div class="col-md-3">
 					<div class="logo-footer">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png" alt="Sanishop" title="Sanishop">
 						<div class="footer-icons">
-							<i class="fab fa-facebook-f" style="font-size:1em;color:#fff"></i>
-							<i class="fab fa-twitter" style="font-size:1em;color:#fff"></i>
-							<i class="fab fa-google-plus-g" style="font-size:1em;color:#fff"></i>
-							<i class="fas fa-phone" style="font-size:1em;color:#fff"></i>
-							<i class="fas fa-envelope" style="font-size:1em;color:#fff"></i>
+                            <a href="https://www.facebook.com/sanishopvalenciennes/"><i class="fab fa-facebook-f" style="font-size:1em;color:#fff"></i></a>
+                            <i class="fab fa-youtube" style="font-size:1em;color:#fff"></i>
 						</div>
 					</div>
 				</div>
@@ -21,11 +18,11 @@
 					<p class="paragraph">
                         40 Rue du Quesnoy, 59300 Valenciennes
                         03 27 46 11 88
-                        <a href="mailto:contact@sanishop.fr">contact@sanishop.fr</a>
 					</p>
                     <h3 class="footer-title">
                         <a href="<?php echo site_url(); ?>/sanishop/contact" style="color:#fff">Contactez-nous</a>
                     </h3>
+                    <a href="mailto:contact@sanishop.fr" class="mail-footer" style="color:#777;text-decoration: underline">contact@sanishop.fr</a>
 				</div>
 				<div class="col-md-6 wrapper-footer">
 					<h3 class="footer-title">
@@ -47,6 +44,9 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<p class="copyright-footer">Tous droits réservés - Sanishop ®</p>
+                    <div class="logo-canopea">
+                        <a href="http://canopea-webmarketing.fr/" target="_blank" alt="Canopea Webmarketing"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-canopea.png" alt="Canopea" title="Canopea" class="img-responsive"></a>
+                    </div>
 				</div>
 			</div>
 		</div>

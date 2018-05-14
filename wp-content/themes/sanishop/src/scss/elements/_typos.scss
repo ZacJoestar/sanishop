@@ -140,3 +140,12 @@ a{
     padding: 30px;
   }
 }
+
+.highlight {
+  @extend .highlight-white;
+  color: $gray-light;
+  padding: 50px;
+  margin-top: 50px;
+  border: solid 1px $gray-light;
+}
+

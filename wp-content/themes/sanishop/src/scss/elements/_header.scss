@@ -1,5 +1,5 @@
 .black-header{
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.4);
   width: 100% !important;
   height: 90px;
 }
@@ -42,10 +42,10 @@
 }
 
   @media only screen and (max-width: 1350px) {
-    .nav-item-wrapper,
-    .main-logo {
-      float: none;
-    }
+    //.nav-item-wrapper,
+    //.main-logo {
+    //  float: none;
+    //}
     .main-logo {
       margin-bottom: 20px;
     }

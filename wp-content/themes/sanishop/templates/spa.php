@@ -8,7 +8,7 @@
  */
 ?>
 <?php get_template_part('tpl-parts/header'); ?>
-<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/bathroom-header.jpg') center center no-repeat; background-size: cover;">
+<div class="container-fluid hero-header" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-0.jpg') center center no-repeat; background-size: cover;">
 	<div class="title-hero">
 		<h1 class="title fancy-title fancy-title--bg-gray">Spa Jacuzzi Valenciennes</h1>
 		<p class="fancy-paragraph">
@@ -37,7 +37,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="push-img">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/jacuzzi.png" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-1.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -54,6 +54,12 @@
                 <p>Valenciennes, Lille, Arras, Saint Quentin,
                 Amiens, Beauvais, Charleville-Mézières, Bruxelles…</p>
             </div>
+        </div>
+        <div class="col-xs-12 col-md-6 mt-5">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/uxDVFeRp7WE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-md-6 mt-5">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/o_KC1aQsPog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -105,27 +111,27 @@
 		<div class="vertical-gallery-wrapper">
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					relax
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-2.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-2.jpg" class="vertical-gallery-visuel" alt="spa-valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					massage
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-3.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-3.jpg" class="vertical-gallery-visuel" alt="spa-valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					design
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-4.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-4.jpg" class="vertical-gallery-visuel" alt="spa-valenciennes">
 			</div>
 			<div class="vertical-gallery-item">
 				<div class="vertical-gallery-overlay">
-					<i class="fas fa-expand" style="font-size: 3em; color: #e0e0e0"></i>
+					feel good
 				</div>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sdb-5.jpg" class="vertical-gallery-visuel" alt="">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/spa-valenciennes-5.jpg" class="vertical-gallery-visuel" alt="spa-valenciennes">
 			</div>
 		</div>
 	</div>

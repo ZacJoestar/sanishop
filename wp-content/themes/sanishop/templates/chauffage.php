@@ -77,13 +77,13 @@
 		</div>
 		<div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
 			<div class="bg-paragraph-card-wrapper">
-				<h3 class="sub-title">Achat sauna</h3>
-				<h2 class="title-second">devis gratuit</h2>
+				<h3 class="sub-title">Salle de bain sur mesure</h3>
+				<h2 class="title-second">Étudions votre projet ensemble</h2>
 				<p class="paragraph">
-					Rendez-vous dans notre magasin à Valenciennes, ou contactez-nous par mail, par téléphone, ou via le formulaire pour obtenir rapidement votre devis gratuit.
+					Contactez-nous par mail, par téléphone ou rendez-vous directement dans notre magasin pour que nous étudiions ensemble votre rêve de salle de bain sur mesure bien chauffée.
 				</p>
 				<div class="main-btn">
-					<a href="<?php echo site_url(); ?>/contact">Demandez votre devis</a>
+					<a href="<?php echo site_url(); ?>/contact">Contactez-nous</a>
 				</div>
 			</div>
 		</div>

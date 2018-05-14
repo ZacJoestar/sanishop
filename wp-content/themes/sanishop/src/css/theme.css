@@ -5834,7 +5834,7 @@ body,
   position: relative; }
   .push-img img {
     position: relative;
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 0 auto; }
 
@@ -5974,6 +5974,10 @@ footer {
   .footer-icons .footer-social-label {
     display: inline-block; }
 
+.logo-canopea {
+  width: 150px;
+  margin: 0 auto; }
+
 .main-btn {
   text-align: center;
   background-color: #000;
@@ -6064,17 +6068,20 @@ footer {
 .zones {
   padding: 100px 0; }
 
-@media (min-width: 768px) {
-  .zones-wrapper {
-    display: table; } }
+.zones-wrapper {
+  /*@include bp(sm) {
+    display: table;
+  }*/ }
 
-@media (min-width: 768px) {
-  .zones-inner {
-    display: table-row; }
-    .zones-inner div[class*='col-md-6'] {
+.zones-inner {
+  /*@include bp(sm) {
+    display: table-row;
+    div[class*='col-md-6'] {
       display: table-cell;
       float: none;
-      width: 50%; } }
+      width: 50%;
+    }
+  }*/ }
 
 .zone-container {
   padding: 65px 20px;
@@ -6213,7 +6220,7 @@ a {
   color: #fff;
   text-align: center; }
 
-.highlight-white {
+.highlight-white, .highlight {
   font-size: 18px;
   color: #fff;
   letter-spacing: 1px;
@@ -6222,9 +6229,15 @@ a {
   padding: 100px;
   text-align: center; }
   @media (max-width: 767px) {
-    .highlight-white {
+    .highlight-white, .highlight {
       font-size: inherit;
       padding: 30px; } }
+
+.highlight {
+  color: #777777;
+  padding: 50px;
+  margin-top: 50px;
+  border: solid 1px #777777; }
 
 .localisation-block {
   background-color: #fff;
@@ -6421,7 +6434,9 @@ a {
   margin: auto; }
 
 .video-embed {
-  position: relative; }
+  position: relative;
+  height: 316px;
+  overflow: hidden; }
   .video-embed iframe {
     position: relative;
     z-index: 1;
@@ -6437,6 +6452,11 @@ a {
   height: 100%;
   width: 100%;
   z-index: 2; }
+  .video-cover--sauna {
+    height: 58vh; }
+
+.sauna iframe {
+  height: 58vh; }
 
 .overlay-video {
   background-color: rgba(0, 0, 0, 0.5);
@@ -6462,6 +6482,11 @@ a {
   padding-left: 0;
   margin-top: 30px;
   margin-bottom: 30px; }
+  .list--wellness {
+    margin-top: 20px;
+    line-height: 24px; }
+    .list--wellness li {
+      color: #777777; }
   .list li {
     position: relative;
     padding: 0 10px 10px 30px; }
@@ -6480,6 +6505,9 @@ a {
     .list .list-link:hover {
       position: relative;
       left: 10px; }
+
+li.no-before:before {
+  background-color: transparent; }
 
 .list-simple {
   list-style: none;
@@ -6792,7 +6820,7 @@ section::after {
       max-width: 550px; }
 
 .black-header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
   width: 100% !important;
   height: 90px; }
 
@@ -6827,9 +6855,6 @@ section::after {
     font-size: 10px !important; }
 
 @media only screen and (max-width: 1350px) {
-  .nav-item-wrapper,
-  .main-logo {
-    float: none; }
   .main-logo {
     margin-bottom: 20px; }
   .nav-item-wrapper .nav-link:first-child {
@@ -6968,49 +6993,21 @@ section::after {
     @media (max-width: 991px) {
       .title-hero .fancy-paragraph {
         left: 0 !important; } }
-
-.form-wrapper {
-  padding: 100px 50px; }
-  .form-wrapper .btn {
-    border-radius: 0;
-    padding: 10px 30px; }
-  .form-wrapper .btn-default {
-    color: #555555;
-    width: 100%;
-    background-color: #fff;
-    border: 0;
-    transition: all ease-in-out .2s;
-    text-transform: uppercase; }
-    .form-wrapper .btn-default:hover {
-      background-color: #000;
-      color: #fff; }
+    .title-hero .fancy-paragraph--wellness {
+      left: 60px;
+      margin-left: 5px; }
 
 .form-container {
-  margin-top: 50px;
-  border: solid 2px #000; }
-
-.form-group {
-  margin-bottom: 0; }
-  .form-group .col-sm-6:first-child {
-    padding-right: 0; }
-    @media (max-width: 991px) {
-      .form-group .col-sm-6:first-child {
-        padding-right: 15px; } }
-  .form-group .col-sm-6:nth-child(2) {
-    padding-left: 0; }
-    @media (max-width: 991px) {
-      .form-group .col-sm-6:nth-child(2) {
-        padding-left: 15px; } }
-
-.form-control {
-  border-radius: 0;
-  box-shadow: none;
-  padding: 20px; }
-  .form-control::placeholder {
-    opacity: 1;
-    transition: all ease-in-out .3s; }
-  .form-control:focus {
-    border-color: #ccc;
-    box-shadow: none; }
-  .form-control:focus::placeholder {
-    opacity: 0; }
+  margin: 50px 0; }
+  .form-container input,
+  .form-container textarea {
+    outline: 0; }
+  .form-container input {
+    padding: 10px; }
+  .form-container .wpcf7-textarea {
+    -webkit-appearance: none;
+    border: solid 1px #eee; }
+  .form-container .wpcf7-submit {
+    -webkit-appearance: none;
+    width: 100%;
+    text-transform: uppercase; }

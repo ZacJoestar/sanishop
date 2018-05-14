@@ -37,9 +37,9 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="push-img">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-1.jpg" alt="">
-			</div>
+            <video width="100%" controls>
+                <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/s1.mp4" type="video/mp4">
+            </video>
 		</div>
 	</div>
 	<div class="row">
@@ -57,7 +57,14 @@
 			</div>
 		</div>
         <div class="col-xs-12 mt-5">
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/SNDkyqhItCU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="video-embed sauna">
+                <iframe id="video" width="100%" src="https://www.youtube.com/embed/SNDkyqhItCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="video-cover video-cover--sauna" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/sauna-1.jpg') no-repeat center center; background-size:cover">
+                    <div class="overlay-video">
+                        <div id="play-video" class="video-btn-play"></div>
+                    </div>
+                </div>
+            </div>
         </div>
 	</div>
 </div>

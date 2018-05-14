@@ -66,7 +66,7 @@ if(!$human == 0){
 			}
 			else //ready to go!
 			{
-				$sent = wp_mail($to, $subject, strip_tags($message), $headers);
+				$sent = wp_mail($to, $subject, strip_tags($message), $headers, $tel, $email, $name, $prenom);
 				if($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
 				else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
 			}

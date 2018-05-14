@@ -15,11 +15,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body <?php body_class(); ?>>
-<nav class="nav <?php echo is_page('Contact') ? 'black-header' : ''?>">
+<nav class="nav black-header">
 	<div class="main-header-wrapper">
         <div class="main-logo">
             <a href="<?php echo site_url(); ?>/" alt="Sanishop" title="Sanishop">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/<?php echo is_page('Contact') ? 'logo-transparent.png' : 'black-logo.png' ?>" alt="">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/logo-transparent.png' ?>" alt="Sanishop Spa Jacuzzi Valenciennes" title="Sanishop Spa Jacuzzi Valenciennes">
             </a>
         </div>
         <ul class="nav-item-wrapper">

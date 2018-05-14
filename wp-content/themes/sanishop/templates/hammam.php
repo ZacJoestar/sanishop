@@ -42,6 +42,9 @@
 			<div class="push-img">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/hammam-1.jpg" alt="">
 			</div>
+            <div class="video" style="padding-top: 50px">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UhQKmQ7Z36Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
 		</div>
 	</div>
 	<div class="row">
@@ -92,7 +95,7 @@
 		</div>
 		<div class="col-md-4 bg-paragraph-card" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/src/images/para-bg-2.jpg') no-repeat center center; background-size:cover">
 			<div class="bg-paragraph-card-wrapper">
-				<h3 class="sub-title">Achat sauna</h3>
+				<h3 class="sub-title">Achat hammam</h3>
 				<h2 class="title-second">devis gratuit</h2>
 				<p class="paragraph">
 					Rendez-vous dans notre magasin à Valenciennes, ou contactez-nous par mail, par téléphone, ou via le formulaire pour obtenir rapidement votre devis gratuit.

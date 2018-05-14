@@ -27,5 +27,10 @@
     @include bp(sm-md) {
       left:0 !important;
     }
+
+    &--wellness {
+      left: 60px;
+      margin-left: 5px;
+    }
   }
 }

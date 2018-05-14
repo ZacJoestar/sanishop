@@ -191,43 +191,8 @@
             <h3 class="sub-title">Partagez vos impressions</h3>
             <h2 class="title-second">Écrivez-nous</h2>
             <div class="form-container">
-                <form class="form-horizontal" method="post" action="<?php the_permalink(); ?>">
-                    <div class="form-group">
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="name" placeholder="Nom" name="message_name" value="<?php echo esc_attr($_POST['message_name']); ?>">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="prenom" placeholder="Prénom" name="message_prenom" value="<?php echo esc_attr($_POST['message_prenom']); ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="message_email" value="<?php echo esc_attr($_POST['message_email']); ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="tel" class="form-control" id="tel" placeholder="Téléphone" name="message_num" value="<?php echo esc_attr($_POST['message_num']); ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <textarea class="form-control" rows="3" placeholder="Votre message" name="message_text" value="<?php echo esc_attr($_POST['message_text']); ?>"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" placeholder="Entrez le chiffre 2 pour confirmez que vous n'êtes pas un robot" name="message_human">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <button type="submit" class="btn btn-default">Envoyer</button>
-                        </div>
-                    </div>
-                </form>
+	            <?php echo do_shortcode('[contact-form-7 id="28" title="Contact form 1"]'); ?>
             </div>
-	            <?php echo $response; ?>
         </div>
         <div class="col-md-12 col-xs-12 col-lg-6 contact-infos text-center">
             <h3 class="sub-title mt-10">Restons en contact</h3>
